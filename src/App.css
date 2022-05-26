@@ -1,0 +1,6105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: none !important;
+}
+
+input:focus {
+    outline: none;
+}
+
+/* .container{
+    width: 1140px !important;
+    margin: 0 auto !important;
+} */
+
+.login-popup {
+    position: absolute;
+    text-align: center;
+    padding: 50px;
+    max-width: 760px;
+    margin: 0 auto;
+    top: 8%;
+    left: 30%;
+    background: #ffffff;
+    box-shadow: 10px 10px 50px rgb(0 0 0 / 7%);
+    border-radius: 30px;
+}
+
+.login-form {
+    text-align: left !important;
+}
+
+.mt-30 {
+    margin-top: 30px !important;
+}
+
+.mb-20 {
+    margin-bottom: 20px !important;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.p-absolute-img {
+    position: absolute;
+    top: 14px;
+    left: 15px;
+}
+
+.login-back {
+    background: #fafafa;
+    position: relative;
+    height: 100vh;
+}
+
+.kakaotalk-img {
+    margin-right: 10px;
+}
+
+.checkbox-input {
+    content: url(./img/Vector.svg);
+    padding: 3px !important;
+    margin-right: 10px;
+    width: 22px !important;
+    height: 22px !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    position: relative;
+    border-radius: 50%;
+    transition: all 0.15s ease-out 0s;
+    background: #eaeaea;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.5rem;
+    outline: none;
+    position: relative;
+    z-index: 1000;
+}
+
+.checkbox-input:checked {
+    background: #ffb932 !important;
+}
+
+.checkbox-input:checked::before {
+    height: 14px;
+    width: 9px;
+    position: absolute;
+    font-size: 12px !important;
+    content: "";
+    left: 6px;
+    top: 1px;
+    color: #fff !important;
+    display: inline-block;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(38deg);
+    text-align: center;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.placeholder-color {
+    color: #cacaca !important;
+}
+
+/* ************************************* mitesh registerFormError ****************************************  */
+
+.registerFormError {
+    /* position: absolute; */
+    width: 660px;
+    height: 16px;
+    left: 630px;
+    top: 381px;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    /* or 200% */
+    display: flex;
+    align-items: center;
+    color: #ff7474;
+}
+
+/*........................ navbar..................................... */
+
+input:focus {
+    box-shadow: none !important;
+}
+
+.nav-item {
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+.nav-content {
+    display: flex;
+}
+
+.nav-user-img {
+    width: 36px;
+    height: 36px;
+    margin-left: 13px;
+    border-radius: 100%;
+}
+
+.nav-profil-pic-set {
+    align-items: center;
+}
+
+.nav-set {
+    position: absolute !important;
+    justify-content: center !important;
+}
+
+.navbar-light .navbar-toggler {
+    border: none !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(./img/Group\ 12968.svg) !important;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+/*.................................. my-page......................................... */
+
+.my-page {
+    max-width: 760px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle::before, .react-datepicker-popper[data-placement^="top"] .react-datepicker__triangle::before, .react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle::after, .react-datepicker-popper[data-placement^="top"] .react-datepicker__triangle::after {
+    box-sizing: content-box;
+    position: absolute;
+    border: 8px solid transparent;
+    height: 0;
+    width: 1px;
+    content: "";
+    z-index: -1;
+    border-width: 8px;
+    left: -25px !important;
+}
+
+.react-datepicker__header {
+    text-align: center;
+    background-color: #FFB932 !important;
+    border-bottom: 1px solid #aeaeae;
+    border-top-left-radius: 0.3rem;
+    padding: 8px 0;
+    position: relative;
+}
+
+.react-datepicker__navigation-icon::before, .react-datepicker__year-read-view--down-arrow, .react-datepicker__month-read-view--down-arrow, .react-datepicker__month-year-read-view--down-arrow {
+    border-color: #010100 !important;
+    border-style: solid;
+    border-width: 3px 3px 0 0;
+    content: "";
+    display: block;
+    height: 9px;
+    position: absolute;
+    top: 6px;
+    width: 9px;
+}
+
+.react-datepicker__day--keyboard-selected, .react-datepicker__month-text--keyboard-selected, .react-datepicker__quarter-text--keyboard-selected, .react-datepicker__year-text--keyboard-selected {
+    background-color: #FFB932 !important;
+}
+
+.react-datepicker__day--selected, .react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range, .react-datepicker__month-text--selected, .react-datepicker__month-text--in-selecting-range, .react-datepicker__month-text--in-range, .react-datepicker__quarter-text--selected, .react-datepicker__quarter-text--in-selecting-range, .react-datepicker__quarter-text--in-range, .react-datepicker__year-text--selected, .react-datepicker__year-text--in-selecting-range, .react-datepicker__year-text--in-range {
+    border-radius: 0.3rem;
+    background-color: #FFB932 !important;
+    color: #fff;
+}
+
+.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle::before, .react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle::after {
+    border: none !important;
+    border-bottom-color: #f0f0f0;
+}
+
+.bor-t {
+    border-top: 1px solid #010100;
+}
+
+.modal-header {
+    border: none !important;
+}
+
+.my-page-popup-head-user-img {
+    position: relative;
+}
+
+.user-img {
+    width: 148px;
+    height: 148px;
+    border-radius: 100%;
+}
+
+.custom-file-input {
+    width: 46px !important;
+    position: absolute !important;
+    bottom: 26px;
+    right: -17px;
+    height: 44px;
+}
+
+.my-page-Vector {
+    padding: 7px;
+    position: absolute;
+    top:96px;
+    left:96px;
+    border-radius: 100px;
+    background-color: #fff;
+    box-shadow: 0px 2.92958px 7.32394px rgb(0 0 0 / 15%);
+}
+
+.send-donation-form .my-page-head h1 span{
+    display:none;
+}
+
+.my-page-login-popup-footer {
+    text-align: center;
+}
+
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    opacity: 1 !important;
+}
+
+.error-color {
+    color: #ff7474;
+}
+
+/* Footer - DAB */
+
+/*.......................... memorialhall......................................... */
+
+.selectmonth-memorialhall {
+    width: 200px !important;
+    height: 60px !important;
+    padding: 11px 20px;
+    border: 1px solid #cacaca;
+    border-radius: 10px !important;
+}
+
+.selectmonth-memorialhall .css-1okebmr-indicatorSeparator {
+    background-color: #fff !important;
+}
+
+.selectmonth-memorialhall .css-yk16xz-control {
+    border: none !important;
+    outline: none !important;
+}
+
+.css-1pahdxg-control {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.select-Hour-Minute {
+    position: relative;
+    margin-top: 20px;
+    justify-content: space-between !important;
+}
+
+.select-Hour-Minute .select-Hour, .select-Minute {
+    width: 315px !important;
+    height: 60px !important;
+    padding: 11px 20px;
+    border: 1px solid #cacaca;
+    border-radius: 10px !important;
+}
+
+.select-Hour-Minute .css-yk16xz-control {
+    border: none !important;
+    outline: none !important;
+}
+
+.select-Hour-Minute .css-1okebmr-indicatorSeparator {
+    background-color: #fff !important;
+}
+
+/* .css-tj5bde-Svg{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border-top: 0.6em solid;
+    border-right: .4em solid transparent;
+    border-bottom: 0;
+    border-left: .4em solid transparent;
+    border-radius: 2px;
+} */
+
+.Enter-room-number {
+    max-width: 660px;
+    width: 100%;
+    height: 60px !important;
+    padding: 22px 20px !important;
+    border: 1px solid #cacaca;
+    border-radius: 10px !important;
+    margin-top: 20px;
+}
+
+.memorial-add-bttn {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    line-height: 36px !important;
+    width: 120px;
+    height: 50px;
+    color: #ffffff !important;
+    border: none !important;
+    background-color: #6eb0ed !important;
+    border-radius: 100px !important;
+    outline: none !important;
+    margin-top: 20px;
+    /* margin-left: auto !important; */
+    /* margin-bottom: 40px;
+    float: right; */
+}
+
+.selectmonth-memorialhall-2 {
+    width: 660px !important;
+    height: 60px !important;
+    padding: 11px 20px;
+    border: 1px solid #cacaca;
+    border-radius: 10px !important;
+}
+
+.selectmonth-memorialhall-2 .css-1okebmr-indicatorSeparator {
+    background-color: #fff !important;
+}
+
+.selectmonth-memorialhall-2 .css-yk16xz-control {
+    border: none !important;
+    outline: none !important;
+}
+
+.memorial-border {
+    content: "";
+    background-color: #010100;
+    height: 1px;
+    width: 100%;
+    opacity: 0.2;
+    margin-top: 40px;
+}
+
+.memorial-ass-btn-div {
+    justify-content: flex-end;
+}
+
+.ul-text {
+    padding-left: 17px;
+    list-style-type: square;
+}
+
+.checkbox-input-2 {
+    content: url(./img/Vector.svg);
+    padding: 3px !important;
+    margin-right: 10px;
+    width: 26px !important;
+    height: 26px !important;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    -ms-appearance: none !important;
+    -o-appearance: none !important;
+    appearance: none !important;
+    position: relative !important;
+    border-radius: 50% !important;
+    transition: all 0.15s ease-out 0s !important;
+    background: #eaeaea !important;
+    border: none !important;
+    color: #fff !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    margin-right: 0.5rem !important;
+    outline: none !important;
+    position: relative !important;
+    z-index: 1000 !important;
+}
+
+.checkbox-input-2:checked {
+    background: #6eb0ed !important;
+}
+
+.checkbox-input-2:checked::before {
+    height: 14px;
+    width: 9px;
+    position: absolute;
+    font-size: 12px !important;
+    content: "";
+    left: 6px;
+    top: 1px;
+    color: #fff !important;
+    display: inline-block;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(38deg);
+    text-align: center;
+}
+
+.set-checkbox-input-2 {
+    margin-left: auto;
+}
+
+.memorial-money-account-guide-service {
+    margin-top: 16px;
+}
+
+.login-input-set-Search-icon {
+    max-width: 660px !important;
+    height: 60px !important;
+    padding: 22px 20px 22px 50px !important;
+    border: 1px solid #cacaca !important;
+    border-radius: 10px !important;
+}
+
+.input-Search-icon {
+    position: absolute;
+    top: 112px;
+    left: 20px;
+    opacity: 0.2;
+}
+
+/* common - DAB */
+
+a {
+    outline: 0 !important;
+    text-decoration: none !important;
+}
+
+.mm-btn1 {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 15px;
+    border-radius: 100px;
+    background-color: #FFB932;
+    color: #FAFAFA ! important;
+    min-width: 120px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.mms-btn-primary {
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 15px;
+    border-radius: 100px;
+    background-color: #6EB0ED;
+    color: #ffffff ! important;
+    min-width: 95px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.mms-btn-default {
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 15px;
+    border-radius: 100px;
+    background-color: #FFB932;
+    color: #ffffff ! important;
+    min-width: 95px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.mm-card {
+    /* box-shadow: 10px 10px 50px 0px #00000012; */
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+.mm-title {
+    font-size: 66px;
+    font-weight: 700;
+    color: #010100;
+    width: 100%;
+}
+
+.mm-title div {
+    line-height: 80px;
+}
+
+.mm-heading-main {
+    display: flex;
+    align-items: flex-end;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.mt-150 {
+    /* margin-top: 150px; */
+    padding-top: 150px;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+.prev-btn, .next-btn {
+    width: 48px;
+    height: 48px;
+    background-color: transparent;
+    border: 3px solid #cacaca;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 38px;
+}
+
+/* Header - DAB  */
+
+.header-search {
+    display: inline-block;
+    position: relative;
+}
+
+.menu-main {
+    width: 100%;
+}
+
+.menu-main .nav-item {
+    width: 100%;
+}
+
+.header-right {
+    width: 100%;
+    text-align: right;
+}
+
+/* .header-top .nav-links {
+    color: rgb(255 255 255/ 60%)!important;
+} */
+
+/* Footer - DAB  */
+
+.footer .footer-logo img {
+    margin-left: -45px;
+}
+
+.footer .footer-details {
+    display: flex;
+    margin-top: 25px;
+}
+
+.footer .footer-details .right {
+    margin-left: 30px;
+    width: 80%;
+}
+
+.main-boxes-memorial {
+    width: 280px;
+    margin-right: 30px;
+}
+
+.memorail-btn-ml {
+    margin-left: 71px;
+}
+
+/* 
+@media (min-width: 1200px) {
+    .header-top .container, .footer .container {
+        max-width: 1230px!important;
+    }
+}
+
+@media(max-width: 1199px) {
+    .menu-main {
+        background-color: #fff;
+        padding: 40px 30px;
+        box-shadow: 14px 9px 20px 0px #0a0a0a75;
+        border-radius: 30px;
+        margin-top: 15px;
+    }
+    .menu-main .nav-item {
+        height: 100%;
+        max-height: 100%! important;
+    }
+    .header-top .nav-links {
+        color: #010100!important;
+        opacity: 1;
+        width: 100%;
+    }
+    .header-top .navbar-expand-xl .navbar-nav .nav-link {
+        margin: 0!important;
+    }
+    .header-search {
+        display: none;
+    }
+    .header-right {
+        text-align: left;
+        padding-top: 15px;
+        border-top: 1px solid #eee;
+        margin-top: 15px;
+    }
+    .nav-login-btn {
+        margin-left: 0;
+    }
+    .nav-links::before {
+        display: none;
+    }
+}
+
+@media(max-width: 991px) {
+    .mm-title {
+        font-size: 50px;
+    }
+    .mm-title div {
+        line-height: 70px;
+    }
+    .mt-60 {
+        margin-top: 40px;
+    }
+    .mt-150 {
+        padding-top: 70px;
+    }
+    .footer .footer-details .right {
+        width: 100%;
+    }
+}
+
+@media(max-width: 767px) {
+    .footer .footer-link .link {
+        margin-right: 25px;
+    }
+    .footer .footer-details {
+        display: block;
+    }
+    .footer .footer-details .right {
+        margin: 20px 0 0 0;
+    }
+    .footer .footer-depth {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .footer .footer-depth .footer-link {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 25px;
+    }
+    .footer .footer-depth .footer-details {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin: 0;
+    }
+    .footer .footer-details .right .description .label, .footer .footer-details .right .description .value {
+        line-height: 30px;
+    }
+    .footer .footer-details .copyright {
+        display: none;
+    }
+}
+
+@media(max-width: 640px) {
+    .mm-btn1 {
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 575px) {
+    .mm-title {
+        font-size: 36px;
+    }
+    .mm-title div {
+        line-height: 50px;
+    }
+    .footer .footer-link .link {
+        display: block;
+        line-height: 30px;
+        margin: 0;
+    }
+    .footer .footer-details .right .description .label {
+        width: 40%;
+    }
+    .footer .footer-details .right .description .value {
+        width: 55%;
+        margin-right: 0;
+    }
+}
+
+@media(max-width: 480px) {
+    .mm-heading-main {
+        display: block;
+    }
+} */
+
+.p-30 {
+    padding: 15px;
+}
+
+.second-slide .slick-prev {
+    position: absolute;
+    top: 468px;
+    left: 776px;
+    z-index: 3;
+}
+
+.second-slide .slick-next {
+    position: absolute;
+    top: 468px;
+    right: 25px;
+    z-index: 3;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 44px !important;
+    color: transparent !important;
+}
+
+.modal.modal-static .modal-dialog {
+    transform: none !important;
+}
+
+.modal.fade {
+    transition: none !important;
+}
+
+/* -------------------- START MODAL CSS ------------------------ */
+
+.logout-confirm, .delete-account-popup, .memorial-hall-modal, .register-pop-up, .delete-pop-up, .share-pop-up, .Senddonationmoney-pop-up, .delete-post-pop-up, .delete-post-popup, .SelfAuthentication-pop-up, .addFile-pop-up, .error-pop-up {
+    max-width: 450px !important;
+    /* box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.07); */
+    /* border-radius: 30px; */
+}
+
+.logout-confirm .modal-content, .delete-account-popup .modal-content, .memorial-hall-modal .modal-content, .register-pop-up .modal-content, .delete-pop-up .modal-content, .share-pop-up .modal-content, .Senddonationmoney-pop-up .modal-content, .delete-post-pop-up .modal-content, .delete-post-popup .modal-content, .SelfAuthentication-pop-up .modal-content, .addFile-pop-up .modal-content, .error-pop-up .modal-content {
+    background: #ffffff;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.07);
+    border-radius: 30px;
+}
+
+.logout-confirm .modal-header, .delete-account-popup .modal-header, .memorial-hall-modal .modal-header, .register-pop-up .modal-header, .delete-pop-up .modal-header, .share-pop-up .modal-header, .Senddonationmoney-pop-up .modal-header, .delete-post-pop-up .modal-header, .delete-post-popup .modal-header, .SelfAuthentication-pop-up .modal-header, .addFile-pop-up .modal-header, .error-pop-up .modal-header {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: -1px;
+    color: #010100;
+    font-family: Spoqa Han Sans Neo;
+    padding: 50px 40px 30px 40px !important;
+    border-bottom: 1px solid #cccccc !important;
+}
+
+.logout-confirm .modal-body, .delete-account-popup .modal-body, .memorial-hall-modal .modal-body, .register-pop-up .modal-body, .delete-pop-up .modal-body, .share-pop-up .modal-body, .Senddonationmoney-pop-up .modal-body, .delete-post-pop-up .modal-body, .delete-post-popup .modal-body, .SelfAuthentication-pop-up .modal-body, .error-pop-up .modal-body {
+    padding: 30px 40px 60px 40px !important;
+}
+
+.addFile-pop-up .modal-body {
+    padding: 0 40px 60px 40px !important;
+}
+
+.logout-confirm .modal-content h4, .delete-account-popup .modal-body h4, .memorial-hall-modal .modal-body h4, .register-pop-up .modal-body h4, .delete-pop-up .modal-body h4, .share-pop-up .modal-body h4, .Senddonationmoney-pop-up .modal-body h4, .delete-post-pop-up .modal-body h4, .delete-post-popup .modal-body h4, .SelfAuthentication-pop-up .modal-body h4, .error-pop-up .modal-body h4 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: Spoqa Han Sans Neo;
+    letter-spacing: -1px;
+    color: #010100;
+    margin-bottom: 0 !important;
+}
+
+.delete-post-popup .modal-body h4:first-child {
+    margin-bottom: 11px !important;
+}
+
+.delete-account-popup .modal-body h4 {
+    font-family: "Roboto", sans-serif !important;
+}
+
+.memorial-hall-modal .modal-body h4, .register-pop-up .modal-body h4, .Senddonationmoney-pop-up .modal-body h4, .delete-post-popup .modal-body h4, .SelfAuthentication-pop-up .modal-body h4 {
+    font-size: 16px !important;
+}
+
+.register-pop-up .modal-body h4:nth-child(2) {
+    margin-top: 11px !important;
+}
+
+.logout-confirm .modal-footer, .delete-account-popup .modal-footer, .memorial-hall-modal .modal-footer, .register-pop-up .modal-footer, .delete-pop-up .modal-footer, .share-pop-up .modal-footer, .Senddonationmoney-pop-up .modal-footer, .delete-post-pop-up .modal-footer, .delete-post-popup .modal-footer, .SelfAuthentication-pop-up .modal-footer, .addFile-pop-up .modal-footer, .error-pop-up .modal-footer {
+    border: none !important;
+}
+
+.logout-confirm .modal-title-small-f-btn, .delete-account-popup .modal-title-small-f-btn, .memorial-hall-modal .modal-title-small-f-btn, .register-pop-up .modal-title-small-f-btn, .delete-pop-up .modal-title-small-f-btn, .Senddonationmoney-pop-up .modal-title-small-f-btn, .delete-post-pop-up .modal-title-small-f-btn, .delete-post-popup .modal-title-small-f-btn, .SelfAuthentication-pop-up .modal-title-small-f-btn, .addFile-pop-up .modal-title-small-f-btn, .error-pop-up .modal-title-small-f-btn {
+    background: #ffb932 !important;
+    border-radius: 10px !important;
+    border: none !important;
+    width: 100% !important;
+    height: 60px !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    font-family: Spoqa Han Sans Neo;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+.Senddonationmoney-pop-up .modal-title-small-f-btn, .delete-post-popup .modal-title-small-f-btn, .share-pop-up .modal-title-small-s-btn, .SelfAuthentication-pop-up .modal-title-small-f-btn, .addFile-pop-up button {
+    font-size: 16px !important;
+}
+
+.logout-confirm .modal-title-small-s-btn, .delete-account-popup .modal-title-small-s-btn, .memorial-hall-modal .modal-title-small-s-btn, .delete-pop-up .modal-title-small-s-btn, .share-pop-up .modal-title-small-s-btn, .delete-post-pop-up .modal-title-small-s-btn, .addFile-pop-up .modal-title-small-s-btn {
+    background: #ffffff !important;
+    border-radius: 10px !important;
+    border: 2px solid #ffb932 !important;
+    width: 100% !important;
+    height: 60px !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    font-family: Spoqa Han Sans Neo;
+    color: #ffb932 !important;
+    margin-top: 20px;
+}
+
+.share-pop-up .modal-title-small-s-btn {
+    margin-top: 50px !important;
+}
+
+.logout-confirm .close, .delete-account-popup .close, .memorial-hall-modal .close, .register-pop-up .close {
+    color: #cacaca !important;
+}
+
+.close:focus {
+    box-shadow: none !important;
+    outline: none !important;
+    border: none !important;
+}
+
+.share-pop-up .kakaotalk-btn-set {
+    display: flex !important;
+    justify-content: space-between !important;
+    margin-top: 50px !important;
+}
+
+.share-pop-up .kakaotalk-btn-set button {
+    border: 1px solid #381e1e;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 175px;
+    height: 64px;
+    line-height: 40px !important;
+    background-color: transparent !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    letter-spacing: -0.5px !important;
+    color: #381e1e !important;
+}
+
+.SelfAuthentication-pop-up-lable, .SelfAuthentication-pop-up-lable-2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: -1px;
+    font-family: Spoqa Han Sans Neo;
+    color: #010100;
+    margin-bottom: 0;
+}
+
+.SelfAuthentication-pop-up-lable {
+    margin-top: 50px;
+}
+
+.SelfAuthentication-pop-up-lable-2 {
+    margin-top: 30px;
+}
+
+.SelfAuthentication-pop-up-input {
+    height: 64px !important;
+    border: 1px solid #cacaca !important;
+    box-sizing: border-box;
+    border-radius: 10px !important;
+    margin-top: 20px !important;
+}
+
+.SelfAuthentication-pop-up-input:placeholder-shown {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif !important;
+}
+
+.SelfAuthentication-pop-up-input::placeholder {
+    color: #cacaca !important;
+    font-family: "Roboto", sans-serif !important;
+}
+
+.sendVerfyCode {
+    background: transparent !important;
+    border: none !important;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 16px;
+    color: #ffb932 !important;
+    letter-spacing: -0.5px;
+    position: absolute !important;
+    bottom: 12px;
+    right: 21px;
+    font-family: Spoqa Han Sans Neo;
+}
+
+.register-seltAuth-error {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px !important;
+    color: #ff7474;
+    font-family: "Roboto", sans-serif !important;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.addFile-pop-up label {
+    margin-top: 30px !important;
+}
+
+/* -------------------- END MODAL CSS ------------------------ */
+
+/* .footer {
+    background-color: #F1F1F1;
+    width: 100%;
+} */
+
+.App {
+    position: relative;
+    background-color: #fafafa;
+    min-height: 100vh;
+    height: auto;
+}
+
+.body-content-inner {
+    margin-top: -166px;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 323px;
+    padding-top: 13px;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer .footer-link .link {
+    font-size: 14px;
+    font-weight: 700;
+    color: #c9c9c9;
+    margin-right: 50px;
+    font-family: Spoqa Han Sans Neo;
+}
+
+form input:focus, form select:focus, form textarea:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid #cacaca !important;
+}
+
+.footer .footer-details .left-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #a5a5a5;
+    width: 100px;
+    font-family: Spoqa Han Sans Neo;
+}
+
+.footer .footer-details .right .description .label, .footer .footer-details .right .description .value {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer .footer-details .right .description .label {
+    font-size: 14px;
+    font-weight: normal;
+    color: #c9c9c9;
+    margin-right: 10px;
+    line-height: 21px;
+    font-family: Spoqa Han Sans Neo;
+}
+
+.footer .footer-details .right .description .value {
+    margin-right: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #a5a5a5;
+    line-height: 24px;
+    font-family: Spoqa Han Sans Neo;
+}
+
+.footer .footer-details .copyright {
+    font-size: 12px;
+    font-weight: 400;
+    color: #a5a5a5;
+    margin-top: 15px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.footer-link {
+    height: 18px;
+}
+
+.footer-two {
+    height: 70px;
+    background: #f1f1f1;
+    line-height: 70px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-two p {
+    color: #a5a5a5;
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.custom-container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.small-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+*:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: transparent !important;
+    opacity: 0.5 !important;
+    border-radius: 20px;
+    /* margin-top: 30px !important; */
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2) !important;
+    opacity: 0.5 !important;
+    border-radius: 20px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.5) !important;
+    opacity: 1;
+}
+
+/*=========================START LOGIN MODAL======================*/
+
+.log-popup, .signup-popup {
+    max-width: 100% !important;
+    background-color: #fafafa !important;
+    margin: 0 auto !important;
+    min-height: calc(100% - 0rem) !important;
+}
+
+.signup-popup-padding {
+    padding-top: 100px;
+    padding-bottom: 118px;
+}
+
+.log-popup .modal-content, .signup-popup .modal-content {
+    margin: 0 auto !important;
+}
+
+.log-popup .modal-content, .signup-popup .modal-content {
+    max-width: 760px !important;
+    padding: 60px 50px;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.07);
+    border-radius: 30px !important;
+    border: none !important;
+    background-color: #fff !important;
+}
+
+.log-popup .logo-img, .signup-popup .logo-img {
+    margin-bottom: 10px;
+}
+
+.log-popup .login-label, .signup-popup .login-label {
+    color: #010100;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Spoqa Han Sans Neo;
+    margin-bottom: 0;
+    margin-top: 40px;
+}
+
+.log-popup .login-form .login-input, .signup-popup .login-form .login-input {
+    width: 660px;
+    height: 64px;
+    padding: 22px 20px;
+    border: 1px solid #cacaca;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 16px;
+    color: #010100;
+    font-family: Spoqa Han Sans Neo;
+}
+
+.log-popup .login-input:placeholder-shown, .signup-popup .login-input:placeholder-shown {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+}
+
+.log-popup .login-input::placeholder, .signup-popup .login-input::placeholder {
+    color: #cacaca !important;
+}
+
+.log-popup .login-label-checkbox {
+    display: flex;
+    align-items: center;
+    font-family: Spoqa Han Sans Neo;
+    user-select: none;
+    color: #eaeaea;
+    margin: 40px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.signup-popup .login-label-checkbox {
+    display: flex;
+    align-items: center;
+    font-family: Spoqa Han Sans Neo;
+    user-select: none;
+    color: #010100 !important;
+    margin: 40px 0 50px 0;
+}
+
+.log-popup .login-label-checkbox-checked {
+    display: flex;
+    align-items: center;
+    font-family: Spoqa Han Sans Neo;
+    user-select: none;
+    color: #ffb932 !important;
+    margin: 40px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.signup-popup .login-label-checkbox-checked {
+    display: flex;
+    align-items: center;
+    font-family: Spoqa Han Sans Neo;
+    user-select: none;
+    color: #010100 !important;
+    margin: 40px 0 50px 0;
+}
+
+.log-popup .login-btn-Kakaotalk, .signup-popup .login-btn-Kakaotalk {
+    border: 1px solid #381e1e !important;
+    background-color: transparent !important;
+    box-sizing: border-box;
+    border-radius: 10px !important;
+    width: 660px;
+    height: 64px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.5px;
+    font-weight: bold !important;
+    color: #381e1e !important;
+    outline: none !important;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: Spoqa Han Sans Neo;
+}
+
+.log-popup .login-btn, .signup-popup .login-btn {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    line-height: 36px !important;
+    width: 660px;
+    height: 64px;
+    text-align: center;
+    color: #ffffff !important;
+    border: none !important;
+    background-color: #ffb932 !important;
+    border-radius: 10px !important;
+    outline: none !important;
+}
+
+.log-popup .login-btn-btnDisabled, .signup-popup .login-btn-btnDisabled {
+    background-color: #eaeaea !important;
+    opacity: 1 !important;
+}
+
+.log-popup .login-btn-Find-Email, .signup-popup .login-btn-Find-Email {
+    color: #010100 !important;
+    background-color: transparent !important;
+    border: none !important;
+    font-size: 16px !important;
+    /* margin-right: 48px; */
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal !important;
+    font-weight: bold !important;
+}
+
+.right-btn button:first-child {
+    margin-right: 48px;
+}
+
+.log-popup .login-btn-Not-a-member, .signup-popup .login-btn-Not-a-member {
+    color: #010100 !important;
+    background-color: transparent !important;
+    border: none !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    margin-left: auto;
+    font-family: Spoqa Han Sans Neo;
+    position: relative;
+}
+
+.log-popup .login-btn-Not-a-member:after, .signup-popup .login-btn-Not-a-member:after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    display: block;
+    height: 2px;
+    background-color: #010100;
+}
+
+.log-popup .modal-footer, .signup-popup .modal-footer {
+    display: initial !important;
+}
+
+.log-popup .login-popup-footer, .signup-popup .login-popup-footer {
+    margin: 30px 0 0 0 !important;
+}
+
+.log-error {
+    color: #ff7474;
+    font-family: Spoqa Han Sans Neo;
+    font-weight: normal;
+    font-size: 14px;
+    position: absolute;
+    top: 10px;
+    margin-bottom: 0;
+}
+
+.signup-popup .Register-Send-Verification-Code {
+    color: #ffb932 !important;
+    background-color: transparent !important;
+    border: none !important;
+    position: absolute;
+    font-style: normal;
+    width: max-content;
+    top: 90px;
+    right: 0;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    line-height: 36px !important;
+    font-family: Spoqa Han Sans Neo;
+}
+
+.find-email-btn {
+    margin-top: 50px;
+}
+
+.content-email-address {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #010100;
+    margin-bottom: 0;
+    font-family: Spoqa Han Sans Neo;
+}
+
+.email-view {
+    font-size: 20px;
+    font-weight: 700;
+    color: #010100;
+    margin-bottom: 0;
+    margin-top: 30px;
+    font-family: Spoqa Han Sans Neo;
+}
+
+.sucess-login {
+    padding: 39px 0 40px 0;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    margin-top: 30px;
+}
+
+/*=========================END LOGIN MODAL======================*/
+
+.bg-gray-color {
+    background-color: #fafafa;
+}
+
+.my-account {
+    position: relative;
+    text-align: center;
+    padding: 50px 50px 100px;
+    max-width: 760px;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.07);
+    border-radius: 30px;
+}
+
+.header-top {
+    height: 166px;
+    z-index: 1;
+    padding: 0 !important;
+    align-items: center;
+}
+
+.body-content {
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+.custom-nav {
+    z-index: 1;
+    position: relative;
+}
+
+.nav-width {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bg-flower {
+    background-image: url(./img/flower.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+/* .flower-overlay {
+    background-color: #000000;
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    opacity: 0.3;
+  } */
+
+.nav-logo {
+    width: 150px !important;
+    height: 51px !important;
+    margin-right: 60px;
+}
+
+.nav-links {
+    color: #ffff !important;
+    position: relative;
+    opacity: 0.6;
+    padding: 0 !important;
+    margin-right: 40px;
+    font-weight: normal;
+    letter-spacing: -1px;
+}
+
+.nav-links-black {
+    color: #010100 !important;
+    position: relative;
+    opacity: 0.6;
+    padding: 0 !important;
+    margin-right: 40px;
+    font-weight: normal;
+}
+
+.nav-links:last-child {
+    margin-right: 0;
+}
+
+.nav-links-black:last-child {
+    margin-right: 0;
+}
+
+.nav-links:hover {
+    font-weight: bold;
+    color: #ffffff;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.nav-links-black:hover {
+    font-weight: bold;
+    color: #010100;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.nav-links:focus, .nav-links:active {
+    color: #ffffff;
+    opacity: 1;
+    font-weight: bold;
+}
+
+.nav-links-black:focus, .nav-links-black:active {
+    color: #010100;
+    opacity: 1;
+    font-weight: bold;
+}
+
+.nav-links::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 33px;
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+    opacity: 1;
+    -webkit-transform-origin: center top;
+    transform-origin: center top;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+    transition: color 0.1s, -webkit-transform 0.2s ease-out;
+    transition: color 0.1s, transform 0.2s ease-out;
+    transition: color 0.1s, transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
+}
+
+.nav-links-black::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 33px;
+    height: 1px;
+    width: 100%;
+    background-color: #010100;
+    opacity: 1;
+    -webkit-transform-origin: center top;
+    transform-origin: center top;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+    transition: color 0.1s, -webkit-transform 0.2s ease-out;
+    transition: color 0.1s, transform 0.2s ease-out;
+    transition: color 0.1s, transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
+}
+
+.nav-links:active::before {
+    background-color: #010100;
+}
+
+.nav-links-black:active::before {
+    background-color: #010100;
+}
+
+.nav-links:hover::before, .nav-links:focus::before {
+    -webkit-transform-origin: center top;
+    transform-origin: center top;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+
+.nav-links-black:hover::before, .nav-links-black:focus::before {
+    -webkit-transform-origin: center top;
+    transform-origin: center top;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+
+.header-search input::placeholder {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #ffffff;
+    opacity: 0.6;
+    font-family: Spoqa Han Sans Neo;
+}
+
+.nav-search {
+    width: 210px !important;
+    height: 44px !important;
+    border-radius: 100px !important;
+    border: 1px solid #fff !important;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    background-color: transparent !important;
+    font-weight: normal;
+    font-size: 16px !important;
+    line-height: 44px !important;
+    color: #ffffff !important;
+    padding-left: 45px !important;
+}
+
+.nav-search-black {
+    width: 210px !important;
+    height: 44px !important;
+    border-radius: 100px !important;
+    border: 1px solid #010100 !important;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    background-color: transparent !important;
+    font-weight: normal;
+    font-size: 16px !important;
+    line-height: 44px !important;
+    color: #010100 !important;
+    padding-left: 45px !important;
+}
+
+.header-search-black {
+    position: relative;
+}
+
+.header-search-black input::placeholder {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #010100;
+    opacity: 0.6;
+    font-family: Spoqa Han Sans Neo;
+}
+
+.nav-user-name {
+    margin: 0 0 0 13px !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    font-family: Spoqa Han Sans Neo;
+}
+
+.nav-user-name-black {
+    margin: 0 0 0 13px !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #010100 !important;
+    font-family: Spoqa Han Sans Neo;
+}
+
+.nav-btn {
+    margin-left: 14px;
+    height: 44px;
+    padding: 0 20px !important;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 28px !important;
+    background-color: transparent !important;
+    border: 1px solid #fff !important;
+    border-radius: 10px !important;
+}
+
+.nav-btn-black {
+    margin-left: 14px;
+    height: 44px;
+    color: #010100 !important;
+    padding: 0 20px !important;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 28px !important;
+    background-color: transparent !important;
+    border: 1px solid #010100 !important;
+    border-radius: 10px !important;
+}
+
+.nav-login-btn {
+    margin-left: 14px;
+    height: 44px;
+    padding: 0 20px !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+    background-color: transparent !important;
+    border: 1px solid #ffb932 !important;
+    color: #ffb932 !important;
+    box-sizing: border-box;
+    border-radius: 10px !important;
+}
+
+/*=========================END HEADER======================*/
+
+/*========================= START HOMEPAGE ======================*/
+
+.bg-flower {
+    background-image: url(./img/flower.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+/* 
+  .flower-overlay {
+      background-color: #000000;
+      width: 100%;
+      height: 600px;
+      position: relative;
+      opacity: 0.3;
+  } */
+
+/*========================= END HOMEPAGE ======================*/
+
+/*========================= START MEMORIAL HALL ======================*/
+
+.bg-gray {
+    background-color: #fafafa;
+    padding-bottom: 170px;
+}
+
+.bg-gray-trans {
+    background-color: #fafafa;
+    /* padding-bottom: 170px; */
+}
+
+.my-page-head h1 {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 66px;
+    color: #010100;
+    margin-bottom: 0;
+    letter-spacing: -1px;
+}
+
+.furnel-head h1{
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 66px;
+    color: #010100;
+    margin-bottom: 0;
+    letter-spacing: -1px;
+}
+
+.memorialhall-form .my-account {
+    position: relative;
+    text-align: center;
+    padding: 50px 50px 100px;
+    max-width: 760px;
+    margin: 0 auto;
+    margin-top: 74px;
+    background: #ffffff;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.07);
+    border-radius: 30px;
+}
+
+.memorialhall-popup-head-ditail h2, .inquiry-form-title h2 {
+    text-align: left !important;
+    font-family: Spoqa Han Sans Neo;
+    font-weight: bold;
+    font-size: 24px !important;
+    color: #010100;
+    margin-bottom: 0;
+    letter-spacing: -1px;
+}
+
+.memorialhall-form label {
+    margin-bottom: 0;
+    font-family: Spoqa Han Sans Neo;
+    font-weight: bold;
+    font-size: 22px;
+    color: #010100;
+    margin-top: 40px;
+}
+
+.memorialhall-form .form-input {
+    border: 1px solid #cacaca;
+    height: 64px;
+    border-radius: 10px;
+    padding: 0 20px !important;
+    margin-top: 20px;
+    font-family: Spoqa Han Sans Neo;
+    font-weight: normal;
+    font-size: 16px;
+    color: #010100;
+}
+
+.memorialhall-form .form-input::placeholder {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #cacaca;
+}
+
+.memorialhall-form .form-input-two {
+    border: 1px solid #cacaca;
+    height: 64px;
+    border-radius: 10px;
+    padding: 0 50px !important;
+    margin-top: 20px;
+    font-family: Spoqa Han Sans Neo;
+    font-weight: normal;
+    font-size: 16px;
+    color: #010100;
+}
+
+.memorialhall-form .form-input-two::placeholder {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #cacaca;
+}
+
+input [type="text"] {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.memorialhall-form .date-update {
+    margin-bottom: 0;
+    font-family: Spoqa Han Sans Neo;
+    font-weight: bold;
+    font-size: 20px;
+    color: #010100;
+    margin-top: 40px;
+}
+
+.memorial-textarea {
+    border-radius: 10px !important;
+    margin-top: 20px !important;
+    font-family: Spoqa Han Sans Neo !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+    color: #010100 !important;
+    padding: 20px !important;
+}
+
+.memorial-textarea {
+    border-radius: 10px !important;
+    margin-top: 20px !important;
+    font-family: Spoqa Han Sans Neo !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+    color: #010100 !important;
+    padding: 20px !important;
+}
+
+.memorialhall-page-label {
+    justify-content: space-between !important;
+    margin-top: 20px;
+}
+
+.memorialhall-form .date-note .react-datepicker__input-container input {
+    width: 200px;
+    border: 1px solid #cacaca;
+    height: 64px;
+    border-radius: 10px;
+    padding: 22px 20px !important;
+    margin-top: 20px;
+}
+
+.memorialhall-form .react-datepicker__input-container input::placeholder {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #cacaca;
+}
+
+.memorialhall-form .date-note .react-datepicker-wrapper {
+    width: 200px;
+}
+
+.memorialhall-form .date-note .react-datepicker__input-container {
+    width: 200px;
+}
+
+.memorialhall-form .selector-set-main {
+    width: 200px;
+}
+
+.memorialhall-form .selector-set {
+    border: 1px solid #cacaca;
+    height: 64px;
+    width: 200px;
+    border-radius: 10px;
+    padding: 0 20px !important;
+    margin-top: 20px;
+}
+
+.memorialhall-form .selector-set-gray {
+    border: 1px solid #cacaca;
+    height: 64px;
+    width: 200px;
+    border-radius: 10px;
+    padding: 0 20px !important;
+    margin-top: 20px;
+}
+
+.memorialhall-form .selector-set-gray {
+    border: 1px solid #cacaca;
+    height: 64px;
+    width: 200px;
+    border-radius: 10px;
+    padding: 0 20px !important;
+    margin-top: 20px;
+}
+
+.memorialhall-form .selector-set-main-full {
+    width: 100%;
+}
+
+.memorialhall-form .selector-set-full {
+    border: 1px solid #cacaca;
+    height: 64px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0 20px !important;
+    margin-top: 20px;
+    font-family: Spoqa Han Sans Neo;
+    font-weight: normal;
+    font-size: 16px;
+    color: #010100;
+}
+
+.memorialhall-form .selector-set-gray-full {
+    border: 1px solid #cacaca;
+    height: 64px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0 20px !important;
+    margin-top: 20px;
+    font-family: Spoqa Han Sans Neo;
+    font-weight: normal;
+    font-size: 16px;
+    color: #010100;
+}
+
+textarea::placeholder {
+    color: #cacaca !important;
+    font-family: Spoqa Han Sans Neo !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+}
+
+.selector-set:focus-visible {
+    border: 1px solid #cacaca;
+}
+
+.selector-set:focus {
+    outline: none !important;
+}
+
+.memorialhall-form option[selected] {
+    display: none;
+}
+
+.selector-set-gray option:first-child, .selector-set option:first-child {
+    display: none !important;
+}
+
+/* select
+  {
+      color: #ccc !important;
+  } */
+
+/* .memorialhall-form select .selected{
+      color:#ccc !important;
+  } */
+
+.memorialhall-form select option {
+    color: #010100 !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+    font-family: Spoqa Han Sans Neo !important;
+}
+
+.memorialhall-form .selector-set:first-child {
+    color: #cacaca;
+}
+
+/* .memorialhall-form select .selected{
+      color:#ccc !important;
+  } */
+
+.memorialhall-form select option {
+    color: #010100 !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+    font-family: Spoqa Han Sans Neo !important;
+}
+
+.memorialhall-form .selector-set:first-child {
+    color: #cacaca;
+}
+
+.down-arrow {
+    position: absolute;
+    top: 40px;
+    display: none;
+    right: 20px;
+}
+
+select {
+    /* for Firefox */
+    -moz-appearance: none;
+    /* for Chrome */
+    -webkit-appearance: none;
+}
+
+/* For IE10 */
+
+select::-ms-expand {
+    display: none;
+}
+
+.memorialhall-form .text-area {}
+
+.memorial-title-form {
+    color: #010100;
+    font-family: Spoqa Han Sans Neo !important;
+    user-select: none;
+    width: 100%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px !important;
+    margin-top: 40px;
+}
+
+.ul-text li {
+    color: #cacaca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: Spoqa Han Sans Neo !important;
+}
+
+.color-yellow {
+    color: #ffb932;
+}
+
+.color-yellow-span {
+    color: #ffb932;
+    font-family: Spoqa Han Sans Neo !important;
+    font-weight: bold;
+    position: absolute;
+    top: 40px;
+    font-size: 16px;
+    right: 20px;
+}
+
+.react-datepicker__close-icon::after {
+    display: none !important;
+}
+
+.close-btn-suggestion {
+    background-color: transparent !important;
+    border: none !important;
+    color: #ffb932 !important;
+    font-family: Spoqa Han Sans Neo !important;
+    font-weight: bold !important;
+    font-size: 16px;
+    position: absolute;
+    top: 105px;
+    right: 20px;
+}
+
+input[type="file"] {
+    height: 64px;
+    line-height: 64px;
+    color: #cacaca;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Spoqa Han Sans Neo !important;
+}
+
+input[type="file"]::file-selector-button {
+    display: none !important;
+}
+
+.attach-img {
+    color: #ffb932 !important;
+    background-color: transparent !important;
+    border: none !important;
+    position: absolute;
+    font-style: normal;
+    width: max-content;
+    top: 25px;
+    right: 20px;
+    font-family: Spoqa Han Sans Neo !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    line-height: 36px !important;
+    /* margin-right: 20px; */
+}
+
+/*========================= END MEMORIAL HALL ======================*/
+
+/*========================= START MY ACCOUNT ======================*/
+
+.myaccount-popup .modal-content {
+    max-width: 760px !important;
+    padding: 60px 50px;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.07);
+    border-radius: 30px !important;
+    border: none !important;
+}
+
+.myaccount-popup .login-label, .send-donation-popups .login-label {
+    color: #010100;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Spoqa Han Sans Neo;
+    margin-bottom: 0;
+    margin-top: 40px;
+    letter-spacing: -1px;
+}
+
+.myaccount-popup .login-form .login-input, .send-donation-popups .login-form .login-input {
+    max-width: 660px;
+    width:100%;
+    height: 64px;
+    padding: 22px 20px;
+    border: 1px solid #cacaca;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 18px;
+    color: #010100;
+    font-family: Spoqa Han Sans Neo;
+}
+
+.my-page-save-btn {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    max-width: 660px;
+    width: 100%;
+    height: 64px;
+    text-align: center;
+    color: #ffffff !important;
+    border: none !important;
+    background-color: #ffb932 !important;
+    border-radius: 100px !important;
+    outline: none !important;
+    margin-top: 50px;
+}
+
+.myaccount-popup .login-input:placeholder-shown, .send-donation-popups .login-input:placeholder-shown {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 18px !important;
+}
+
+.myaccount-popup .login-input::placeholder, .send-donation-popups .login-input::placeholder {
+    color: #cacaca !important;
+}
+
+.my-acoount-border {
+    border: 1px solid #010100;
+    opacity: 0.2;
+    max-width: 660px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.signup-del-account {
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 18px !important;
+    color: #010100 !important;
+    background-color: transparent !important;
+    border: none !important;
+    margin-top: 30px;
+    font-family: Spoqa Han Sans Neo;
+}
+
+.myaccount-popup {
+    position: relative;
+    text-align: center;
+    padding:60px 50px;
+    max-width: 760px;
+    margin: 0 auto;
+    margin-top: 74px;
+    background: #ffffff;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.07);
+    border-radius: 30px;
+}
+
+.my-page-popup-head {
+    /* padding-left: 32px;
+    padding-right: 32px; */
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom:1px solid #010100;
+}
+
+/* .my-account-inner-content {
+    padding-left: 50px;
+    padding-right: 50px;
+} */
+
+.my-page-popup-head-details {
+    text-align: left;
+    padding-left: 50px;
+}
+
+.my-page-popup-head-details h2 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 0;
+    color: #010100;
+    font-family: Spoqa Han Sans Neo;
+}
+
+.my-page-popup-head-details h3 {
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 0;
+    color: #010100;
+    margin-top: 20px;
+    font-family: Spoqa Han Sans Neo;
+}
+
+/*========================= END MY ACCOUNT ======================*/
+
+.about-inner-content {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 166px;
+    /* padding-bottom: 100px; */
+}
+
+.about-inner-content .header-about h1 {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 66px !important;
+    margin-bottom: 0;
+}
+
+.about-inner-content .about-content {
+    margin-top: 32px;
+    margin-bottom: 0;
+}
+
+.about-inner-content .about-content h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-family: Spoqa Han Sans Neo;
+    font-size: 24px;
+    line-height: 36px;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.about-board {
+    padding-bottom: 170px;
+}
+
+.home-board {}
+
+.about-board-inner {
+    margin-top: -40px;
+}
+
+.about-single-board:first-child {
+    margin-top: 0;
+}
+
+.about-single-board {
+    background: #ffffff;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.07);
+    border-radius: 30px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 60px 50px 60px 70px;
+}
+
+.data-single-board {
+    max-width: 650px;
+    width: 100%;
+}
+
+.data-single-board h3 {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: #010100;
+    margin-bottom: 0;
+    letter-spacing: -1px;
+}
+
+.data-single-board h6 {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #010100;
+    margin-bottom: 0;
+    margin-top: 20px;
+    line-height: 32px;
+}
+
+.color-yellow-btn {
+    background-color: transparent !important;
+    border: none !important;
+    color: #ffb932 !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    font-family: Spoqa Han Sans Neo !important;
+}
+
+/* Memorial hall status ============= start =========================  */
+
+.heading {
+    width: 900px;
+    top: 166px;
+    left: 510px;
+}
+
+.heading h1 {
+    font-family: Spoqa Han Sans Noe;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 66px;
+    letter-spacing: -1px;
+    color: #ffffff;
+}
+
+.Register-btn {
+    width: 160px;
+    height: 60px;
+    font-family: Spoqa Han Sans Noe !important;
+    float: right;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    color: #ffffff !important;
+    background: #ffb932 !important;
+    border-radius: 100px !important;
+    border: transparent !important;
+}
+
+.content-btn {
+    min-width: 110px;
+    height: 44px;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 30px !important;
+    letter-spacing: -0.5px !important;
+    color: #ffffff !important;
+    background-color: transparent !important;
+    border: transparent !important;
+    padding: 0px !important;
+    position: relative;
+}
+
+.content-btn:focus {
+    outline: none !important;
+    border: none !important;
+}
+
+.content-btn-2:focus {
+    outline: none !important;
+    border: none !important;
+}
+
+.content-btn-2 {
+    min-width: 110px;
+    height: 44px;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal !important;
+    font-size: 30px !important;
+    letter-spacing: -0.5px !important;
+    color: #ffffff !important;
+    background-color: transparent !important;
+    border: transparent !important;
+    opacity: 0.6;
+    padding: 0px !important;
+    /* margin-left: 71px; */
+}
+
+.content-btn::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: #ffffff;
+    border-radius: 100%;
+    position: absolute;
+    top: 8px;
+    left: 118px;
+}
+
+.boxs {
+    width: 280px;
+    background: #ffffff;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.07) !important;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    padding: 40px 40px 62px;
+}
+
+.box-top {
+    margin-top: -50px;
+}
+
+.profile-img img {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.box-content h2 {
+    /* width: 200px; */
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: -1px;
+    color: #010100;
+    margin-bottom: 14px;
+}
+
+.box-content p {
+    /* width: 200px; */
+    height: 18px;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 32px;
+    opacity: 0.6;
+}
+
+.box-content h3 {
+    /* width: 200px; */
+    height: 20px;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 0;
+    font-size: 16px;
+    letter-spacing: -1px;
+    color: #010100;
+}
+
+.box-1 {
+    width: 280px;
+    background: #ffffff;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.07) !important;
+    border-radius: 30px;
+    top: -50px;
+}
+
+.height-img {
+    height: 490px !important;
+}
+
+.heading-content {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading-content h1 {
+    font-family: Spoqa Han Sans Noe;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 66px;
+    letter-spacing: -1px;
+    color: #ffffff;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+.heading-content {
+    align-items: center;
+}
+
+.memorial-bg-img {
+    background-image: url(../src/img/memorial-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 490px;
+}
+
+.tab-btns {
+    margin-top: 60px;
+    margin-bottom: 84px;
+    position: relative;
+}
+
+/* .container {
+    width: 900px !important;
+    padding: 166px 0 0 0 !important;
+  } */
+
+.font16_normal {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: -1px;
+    color: #010100;
+}
+
+.addfirend-btn {
+    width: 80px;
+    height: 34px;
+    border: 1px solid #ffb932 !important;
+    box-sizing: border-box !important;
+    border-radius: 100px !important;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    margin-left: 24px;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    padding: 0px !important;
+    background-color: transparent !important;
+    color: #ffb932 !important;
+}
+
+.waiting-btn {
+    width: 80px;
+    height: 34px;
+    border: 1px solid #cacaca !important;
+    box-sizing: border-box;
+    border-radius: 100px !important;
+    font-style: normal;
+    margin-left: 24px;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    font-family: Spoqa Han Sans Neo;
+    padding: 0px !important;
+    background-color: transparent !important;
+    color: #cacaca !important;
+}
+
+.like-img {
+    width: 32.24px !important;
+    height: 25.22px !important;
+    margin-left: 65px;
+    margin-bottom: 0px !important;
+}
+
+/* Memorial hall status ============= end =========================  */
+
+/* HOME PAGE ============= START =========================  */
+
+.home-page .home-title-tex h1, .price-page .home-title-tex h1 {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 0 !important;
+    font-size: 66px;
+    color: #ffffff;
+    z-index: 2;
+}
+
+.home-page .home-title-tex p, .price-page .home-title-tex p {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #ffffff;
+    margin-bottom: 0 !important;
+    margin-top: 32px;
+}
+
+.price-page .home-title-tex p {
+    font-family: "Roboto", sans-serif !important;
+    margin-top: 0 !important;
+}
+
+.home-page .testimonial .slick-slide>div {
+    margin: 0 15px !important;
+}
+
+.home-page .testimonial .slick-list {
+    margin: 0 -15px !important;
+}
+
+.home-page .testimonial .card-content h3 {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    /* line-height: 36px; */
+    margin-bottom: 0 !important;
+    color: #010100;
+}
+
+.home-page .testimonial .card-content h5 {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 14px;
+    color: #010100;
+    opacity: 0.6;
+}
+
+.home-page .testimonial .card-content h4 {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 32px;
+    color: #010100;
+}
+
+.home-page .testimonial .slide-card {
+    border-radius: 30px;
+    box-shadow: 5px 10px 16px rgb(0 0 0 / 3%);
+}
+
+.home-page .testimonial .slick-track {
+    padding-bottom: 30px;
+}
+
+.home-page .testimonial .card-img {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-price-guide {
+    margin-top: 150px;
+}
+
+.apply-memorialhall-sec-Btn, .home-price-guide-btn, .testiminial-caraousel-btn, .memorial-card-caraousel-btn {
+    background: #ffb932 !important;
+    border-radius: 100px !important;
+    border: none !important;
+    width: 120px;
+    height: 50px;
+    font-family: Spoqa Han Sans Neo !important;
+    color: #fafafa !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+}
+
+.apply-memorialhall-sec-header h1, .apply-memorialhall-sec-title h1, .home-price-guide-title h1, .testimonial-slick-card-title h1 {
+    font-family: Spoqa Han Sans Neo !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 66px;
+    margin-bottom: 40px;
+    color: #010100;
+    margin-bottom: 0;
+    letter-spacing: -1px;
+}
+
+.apply-memorialhall-sec-header, .home-price-guide-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.apply-memorialhall-sec-text h1 {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #010100;
+    margin-bottom: 20px !important;
+}
+
+.apply-memorialhall-sec-text h2 {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 0;
+    color: #010100;
+    opacity: 0.5;
+    margin-top: 17px;
+}
+
+.home-price-guide-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+.testimonial-slick-card {
+    margin-top: 150px;
+}
+
+/* .testimonial-slick-card-caraousel{
+    margin-top:60px;
+} */
+
+.Basic-Free-Service-card-title h1 {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #010100;
+    line-height: 36px;
+    margin-bottom: 40px;
+}
+
+.basic-card-lable {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0 !important;
+    color: #010100;
+    margin-bottom: 20px !important;
+}
+
+.basic-card-list {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 0;
+    color: #010100;
+    opacity: 0.5;
+    letter-spacing: -1px;
+}
+
+.basic-benifit-one h6 {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    margin-bottom: 0;
+    font-weight: bold;
+    height: 24px;
+    font-size: 20px;
+    color: #010100;
+    letter-spacing: -1px;
+}
+
+.basic-benifit-one p {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #010100;
+    opacity: 0.5;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 30px;
+    letter-spacing: -1px;
+}
+
+.basic-benifit-two h6 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Spoqa Han Sans Neo;
+    color: #010100;
+    margin-bottom: 0;
+    height: 24px;
+}
+
+.basic-benifit-two p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: Spoqa Han Sans Neo;
+    color: #010100;
+    opacity: 0.5;
+    margin-bottom: 0;
+    margin-top: 20px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+.basic-benifit-three h6 {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+    color: #010100;
+    height: 24px;
+}
+
+.basic-benifit-three p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: Spoqa Han Sans Neo;
+    color: #010100;
+    opacity: 0.5;
+    margin-bottom: 0;
+    margin-top: 20px;
+    height: 30px;
+}
+
+.card-last-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: Spoqa Han Sans Neo;
+    color: #010100;
+    letter-spacing: -1px;
+    margin-top: 93px;
+    line-height: 30px;
+}
+
+.premium-benifit-one h6 {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    height: 24px;
+    margin-bottom: 0;
+    color: #010100;
+}
+
+.premium-benifit-one p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: Spoqa Han Sans Neo;
+    color: #010100;
+    opacity: 0.7;
+    height: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.premium-benifit-two h6 {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    height: 24px;
+    margin-bottom: 0;
+    color: #010100;
+}
+
+.premium-benifit-two .pa-1, .premium-benifit-two .pa-2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: Spoqa Han Sans Neo;
+    color: #010100;
+    opacity: 0.7;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 0 !important;
+}
+
+.premium-benifit-two .pa-2 {
+    margin-bottom: 30px !important;
+}
+
+.premium-benifit-three h6 {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+    height: 24px;
+    color: #010100;
+}
+
+.premium-benifit-three .pa-1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: Spoqa Han Sans Neo;
+    color: #010100;
+    opacity: 0.7;
+    height: 52px;
+    margin-top: 10px;
+    margin-bottom: 0 !important;
+}
+
+.premium-benifit-three .pa-2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: Spoqa Han Sans Neo;
+    color: #010100;
+    opacity: 0.7;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px !important;
+}
+
+.premium-benifit-four h6 {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+    color: #010100;
+    height: 24px;
+}
+
+.premium-benifit-four .pa-1 {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #010100;
+    opacity: 0.7;
+    margin-bottom: 0;
+    margin-top: 20px;
+    height: 20px;
+}
+
+.premium-benifit-four .pa-2 {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #010100;
+    opacity: 0.7;
+    margin-bottom: 0;
+    height: 20px;
+    margin-top: 20px;
+}
+
+.testimonial-slick-card .slick-slide>div {
+    margin: 0 15px !important;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.testimonial-slick-card .slick-list {
+    margin: 0 -15px !important;
+}
+
+.applyhall-title-testimonial h1 {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    letter-spacing: -1px;
+    color: #010100;
+    margin-bottom: 0;
+}
+
+.basic-card-bottom-btn {
+    max-width: 330px;
+    width: 100%;
+    height: 60px;
+    border: 1px solid #ffb932 !important;
+    background-color: transparent !important;
+    box-sizing: border-box;
+    border-radius: 10px !important;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    line-height: 28px;
+    margin-top: 57px;
+    letter-spacing: -1px;
+    color: #ffb932 !important;
+}
+
+.premium-card-bottom-btn {
+    max-width: 330px;
+    width: 100%;
+    height: 60px;
+    border: 1px solid #ffb932 !important;
+    background-color: transparent !important;
+    box-sizing: border-box;
+    border-radius: 10px !important;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    line-height: 28px;
+    margin-top: 50px;
+    letter-spacing: -1px;
+    color: #ffb932 !important;
+}
+
+/* HOME PAGE ============= END =========================  */
+
+select {
+    /* styling */
+    background-color: white;
+    border-radius: 4px;
+    display: inline-block;
+    font: inherit;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+    /* reset */
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+select.minimal {
+    background-image: url(./img/arrows.png);
+    background-position: calc(100% - 20px) calc(1em + 6px), calc(100% - 15px) calc(1em + 6px), calc(100% - 2.5em) 0.5em;
+    background-repeat: no-repeat;
+}
+
+select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 transparent;
+}
+
+.react-datepicker {
+    border: 1px solid #cacaca !important;
+    padding-top: 40px !important;
+    /* padding-bottom: 40px; */
+}
+
+/* .react-datepicker__month-container {
+    max-width: 660px;
+    width:100%;
+} */
+
+.full-w-datepicker .react-datepicker-popper, .full-w-datepicker .react-datepicker, .full-w-datepicker .react-datepicker__month-container {
+    /* max-width: 640px; */
+    width: 100%;
+    overflow: hidden;
+}
+
+.date-note .react-datepicker-popper, .date-note .react-datepicker, .date-note .react-datepicker__month-container {
+    min-width: 660px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.date-note .selector-set-main {
+    margin-left: 30px;
+}
+
+.react-datepicker__day-names, .react-datepicker__week {
+    display: flex;
+    justify-content: space-around;
+}
+
+.react-datepicker__header {
+    background-color: #fff !important;
+    border: none !important;
+}
+
+.react-datepicker__day--keyboard-selected, .react-datepicker__month-text--keyboard-selected, .react-datepicker__quarter-text--keyboard-selected, .react-datepicker__year-text--keyboard-selected {
+    border-radius: 50% !important;
+}
+
+.react-datepicker__current-month, .react-datepicker-time__header, .react-datepicker-year-header {
+    font-weight: bold !important;
+    font-size: 20px !important;
+    color: #010100 !important;
+    font-family: "Roboto", sans-serif !important;
+}
+
+.react-datepicker__day-names {
+    margin-top: 36px !important;
+    height: 20px !important;
+    line-height: 20px !important;
+    margin-bottom: 30px !important;
+}
+
+.react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+    margin-bottom: 30px !important;
+    font-family: Roboto !important;
+    font-style: normal !important;
+    width: 38px !important;
+    font-weight: bold !important;
+    line-height: 38px !important;
+    font-size: 16px !important;
+    /* color: #010100 !important; */
+}
+
+.react-datepicker__day--selected, .react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range, .react-datepicker__month-text--selected, .react-datepicker__month-text--in-selecting-range, .react-datepicker__month-text--in-range, .react-datepicker__quarter-text--selected, .react-datepicker__quarter-text--in-selecting-range, .react-datepicker__quarter-text--in-range, .react-datepicker__year-text--selected, .react-datepicker__year-text--in-selecting-range, .react-datepicker__year-text--in-range {
+    border-radius: 50% !important;
+}
+
+.react-datepicker__navigation {
+    top: 10% !important;
+}
+
+.react-datepicker__navigation--previous {
+    left: 28% !important;
+}
+
+.react-datepicker__navigation--previous:focus, .react-datepicker__navigation--next:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.react-datepicker__navigation--next {
+    right: 28% !important;
+}
+
+.react-datepicker__day-names .react-datepicker__day-name {
+    color: #939390 !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 12px !important;
+    font-family: "Roboto", sans-serif !important;
+}
+
+input:focus, select:focus, textarea:focus, button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid #cacaca !important;
+}
+
+input.middle:focus {
+    outline-width: 0 !important;
+    box-shadow: none !important;
+    border: 1px solid #cacaca !important;
+}
+
+.list-dropdown-address {
+    padding: 30px;
+    padding-bottom: 0 !important;
+    border: 1px solid #cacaca;
+    border-radius: 10px;
+    margin-top: 10px !important;
+    position: absolute;
+    max-width: 660px;
+    width: 100%;
+    z-index: 9;
+    height: 539px;
+    overflow-y: auto;
+    background-color: #fff !important;
+}
+
+.yellow-label {
+    background-color: #ffb932 !important;
+    color: #fff !important;
+    border: none !important;
+    width: 100px;
+    height: 26px;
+    line-height: 28px;
+    border-radius: 5px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif !important;
+    font-size: 14px;
+}
+
+.sky-label {
+    background-color: #6eb0ed !important;
+    color: #fff !important;
+    border: none !important;
+    width: 100px;
+    height: 26px;
+    line-height: 28px;
+    border-radius: 5px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif !important;
+    font-size: 14px;
+}
+
+button:focus {
+    box-shadow: none !important;
+    /* border: none !important; */
+}
+
+.list-dropdown-address h4 {
+    font-style: normal !important;
+    font-weight: normal !important;
+    margin-top: 10px !important;
+    font-size: 16px !important;
+    font-family: "Roboto", sans-serif !important;
+    color: #010100 !important;
+}
+
+.list-dropdown-address p {
+    font-style: normal !important;
+    font-weight: normal !important;
+    margin-top: 5px !important;
+    font-size: 12px !important;
+    font-family: "Roboto", sans-serif !important;
+    color: #939390 !important;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #cacaca;
+}
+
+.custom-width-card {
+    width: 280px !important;
+    margin-bottom: 30px;
+}
+
+.custom-width-card:first-child {
+    margin-right: 30px;
+}
+
+.custom-width-card:nth-child(2) {
+    margin-right: 30px;
+}
+
+/* .memorial-hall-status :nth-child(3n) {
+    margin-right: 0 !important;
+} */
+
+.memorial-hall-status .boxs {
+    margin-right: 30px;
+}
+
+.blur-screen {
+    width: 100%;
+    height: 600px;
+    filter: blur(5px);
+    backdrop-filter: blur(5px);
+    position: relative;
+    top: 0;
+    background: #020300;
+    opacity: 0.2;
+}
+
+.visitor-personal-data .visitor-total {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Spoqa Han Sans Neo;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.visitor-personal-data .visitor-heading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    color: #ffffff;
+    font-family: Spoqa Han Sans Neo;
+    line-height: 70px;
+    margin-bottom: 28px !important;
+    margin-top: 20px !important;
+    word-break: keep-all;
+    min-width: 410px;
+    width:100%;
+}
+
+.visitor-personal-data .links {
+    display: flex !important;
+    margin-top: 10px !important;
+    /* letter-spacing: -1px !important; */
+}
+
+/* .visitor-personal-data .links span {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+  } */
+
+.visitor-label {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    align-items: center;
+    letter-spacing: -1px;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.visitor-total .orange {
+    color: #ffb932 !important;
+    font-weight: bold;
+}
+
+.visitor-personal-data .visitor-links {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #6eb0ed;
+    display: flex;
+    /* width:203px; */
+}
+
+.visitor-personal-data .visitor-links .text-data-white {
+    color: #fff !important;
+    margin-left: 10px !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+    font-family: Spoqa Han Sans Neo !important;
+    margin-bottom: 0;
+}
+
+.visitor-links .register {
+    width: 143px !important;
+}
+
+/* .visitor-personal-data .links{
+    position: relative;
+  }
+  
+  .visitor-personal-data .links:after{
+  content:'';
+  display:block;
+  position: absolute;
+  background-color:#fff;
+  width:1px;
+  height:10px;
+  left:183px;
+  opacity: 0.4;
+  top:5px;
+  } */
+
+.pl-pr-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+    opacity: 0.4;
+}
+
+.moneyGuid .sec-tickets h1 {
+    font-family: Spoqa Han Sans Neo !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    color: #010100;
+}
+
+.moneyGuid .sec-tickets {
+    padding: 30px;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.jus-bet {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.jus-bet p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 0;
+    color: #010100;
+    font-family: Spoqa Han Sans Neo !important;
+}
+
+.jus-bet h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #010100;
+    font-family: Spoqa Han Sans Neo !important;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.sec-ticket-count {
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: -1px;
+    color: #ffb932;
+    margin-top: 10px;
+}
+
+.moneyGuid button {
+    width: 100%;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    font-family: Spoqa Han Sans Neo !important;
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.family-member-name {
+    width: 50%;
+    margin-top: 20px;
+}
+
+.family-member-name h3 {
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #010100;
+    font-family: Spoqa Han Sans Neo !important;
+}
+
+.moneyGuid .sec-tickets:last-child {
+    border-bottom: none !important;
+}
+
+/* .profile-content {
+    position: relative;
+  } */
+
+.profile-content .profile {}
+
+.profile-content .profile .img {
+    width: 240px;
+    height: 240px;
+}
+
+.profile .img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    /* left: -11%; */
+    top: -84px;
+}
+
+.slick-slider button:focus {
+    border: none !important;
+}
+
+.full-w-datepicker .react-datepicker-wrapper {
+    width: 100% !important;
+}
+
+.full-w-datepicker .react-datepicker__input-container {
+    width: 100% !important;
+}
+
+.memorialhall-form .full-w-datepicker .form-input {
+    width: 100% !important;
+}
+
+.main-memorial-hall-status {
+    margin-top: -84px;
+    z-index: 99;
+    padding-bottom: 170px;
+}
+
+.profile-photo {
+    position: relative;
+}
+
+.profile-photo .img {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+}
+
+.heart-icon {
+    width: 71px;
+    height: 71px;
+    line-height: 71px;
+    text-align: center;
+    position: absolute;
+    top: 169px;
+    left: 169px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.profile-daterange {
+    margin-top: 50px;
+}
+
+.profile-daterange .date-death {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #010100;
+    opacity: 0.6;
+    margin-bottom: 0;
+    font-family: Spoqa Han Sans Neo !important;
+}
+
+.profile-daterange .person-name {
+    font-style: normal;
+    font-weight: 900 !important;
+    font-size: 24px;
+    letter-spacing: -1px;
+    color: #010100;
+    font-family: "Roboto", sans-serif !important;
+    margin-top: 10px;
+    margin-bottom:0;
+}
+
+.profile-daterange .person-area {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #010100;
+    opacity: 0.6;
+    font-family: Spoqa Han Sans Neo !important;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.info-persons .total-counts-label {
+    font-family: Spoqa Han Sans Neo !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 0;
+    color: #010100;
+    opacity: 0.4 !important;
+    margin-left: 10px;
+}
+
+.info-persons .total-counts {
+    font-family: Spoqa Han Sans Neo !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+    color: #ffb932;
+    margin-left: 7px;
+}
+
+.info-persons {
+    display: flex;
+    align-items: center;
+}
+
+.info-death-person {
+    padding-top: 28px;
+    padding-bottom: 50px;
+    border-top: 1px solid #e5e5e5;
+    max-width: 550px;
+}
+
+.info-death-person p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #010100;
+    letter-spacing: -1px;
+    font-family: Spoqa Han Sans Neo !important;
+    line-height: 32px;
+    margin-bottom:0;
+}
+
+.edit-button-edit {
+    /* position: absolute;
+    right:122px;
+    bottom:47px; */
+    margin-top: 34px;
+    display: flex;
+    margin-left: 404px;
+}
+
+.edit-button-edit button, .copied-tooltip {
+    background-color: transparent;
+    border: none !important;
+    cursor: pointer;
+    padding: 0;
+    z-index: 1;
+}
+
+.profile-content {
+    max-width: 596px;
+    padding-top: 147px;
+}
+
+.container-profile {
+    position: relative;
+}
+
+.edit-button-edit button:first-child {
+    padding-right: 20px !important;
+}
+
+.send-query-btn {
+    width: 120px;
+    height: 50px;
+    background: #ffb932 !important;
+    border-radius: 100px !important;
+    border: none !important;
+    font-family: Spoqa Han Sans Neo !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    color: #fafafa !important;
+}
+
+.follower-row {
+    max-width: 550px;
+    margin-bottom: 32px;
+}
+
+.memorial-view-tab-btns-silected {
+    background-color: transparent !important;
+    color: #010100 !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    padding: 20px 25px !important;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
+    line-height: 36px;
+}
+
+.memorial-view-tab-btns {
+    background-color: transparent !important;
+    color: #010100 !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    padding: 20px 25px !important;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 20px !important;
+    line-height: 36px !important;
+    opacity: 0.2 !important;
+}
+
+.memorial-view-tab-btns:focus {
+    border: none !important;
+}
+
+.memorial-view-tab-btns-silected:focus {
+    border: none !important;
+}
+
+.pl-0 {
+    padding-left: 0px !important;
+}
+
+.mt-179 {
+    margin-top: 179px;
+}
+
+/*========================================== MemorialMessage==================================== */
+
+.memorialmessage {
+    height: 493px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-bottom: 1px solid #e1e1e1;
+    /* padding-bottom: 170px; */
+}
+
+.memorialmessage-content {
+    text-align: center;
+}
+
+.memorialmessage-content img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 30px;
+}
+
+.memorialmessage-content h1 {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+    color: #b6b6b6;
+    margin-bottom: 0px;
+}
+
+.memorialmessage-content button {
+    background-color: #ffb932 !important;
+    border: none !important;
+    width: 250px;
+    height: 66px;
+    border-radius: 100px;
+    margin-top: 50px;
+    color: #ffffff !important;
+    font-family: Spoqa Han Sans Neo;
+}
+
+.profile-tab-row {
+    border-top: 1px solid #010100;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.add-posttabs {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.07);
+    border-radius: 30px;
+    padding: 50px 40px 60px 40px;
+    margin-top: 52px;
+    margin-bottom: 50px;
+}
+
+.header-addpost p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: -1px;
+    color: #010100;
+    font-family: Spoqa Han Sans Neo;
+}
+
+.post-add-media {
+    margin-left: auto;
+}
+
+.post-add-media button {
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0;
+}
+
+.post-add-media button:first-child {
+    margin-right: 40px;
+}
+
+.editor-post {
+    border: 1px solid #cacaca;
+    background-color: transparent;
+    border-radius: 10px;
+    height: 240px;
+    margin-top: 20px;
+}
+
+.editor-view {
+    width: 100%;
+    margin-top: 29px;
+}
+
+.editor-view .ck-rounded-corners {
+    height: 541px;
+    min-width: 900px;
+}
+
+.editor-post-main .ck.ck-editor {
+    min-width: 818px !important;
+    /* height: 240px !important; */
+}
+
+.editor-post-main .ck-editor__editable {
+    height: 240px !important;
+}
+
+.editor-post-main .ck.ck-toolbar {
+    border: none !important;
+    background-color: transparent !important;
+    margin-top: -44px;
+    height: 40px;
+}
+
+.editor-post-main .ck-toolbar__items {
+    justify-content: end;
+}
+
+.editor-post-main .ck-dropdown .ck-dropdown__arrow {
+    display: none !important;
+}
+
+/* .editor-post-main .ck-file-dialog-button{
+    position: absolute !important;
+    right:60px;
+    top:-46px;
+} */
+
+.editor-post-main .ck-file-dialog-button .ck.ck-icon, .editor-post-main .ck-dropdown .ck.ck-icon {
+    display: none;
+}
+
+.editor-post-main .ck-file-dialog-button {
+    margin-right: 40px !important;
+}
+
+.editor-post-main .ck-file-dialog-button, .editor-post-main .ck-dropdown {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    position: relative;
+}
+
+.editor-post-main .ck-file-dialog-button button:after {
+    background-image: url(./img/add-image.svg);
+    background-size: cover;
+    content: "";
+    display: block;
+    width: 26px !important;
+    height: 23px !important;
+    background-repeat: no-repeat;
+}
+
+.editor-post-main .ck-dropdown .ck-dropdown__button:after {
+    background-image: url(./img/add-video.svg);
+    background-size: cover;
+    content: "";
+    display: block;
+    width: 30px !important;
+    height: 20px !important;
+    background-repeat: no-repeat;
+}
+
+.editor-post-main .ck-button {
+    outline: none !important;
+    border: none;
+}
+
+.editor-post-main .ck-button {
+    padding: 0 !important;
+}
+
+.post-updateBtn {
+    background: #ffb932 !important;
+    border-radius: 100px !important;
+    width: 660px !important;
+    height: 66px !important;
+    border: none !important;
+    margin-top: 22px;
+    margin-bottom: 100px;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal !;
+    font-weight: bold !important;
+    font-size: 18px !important;
+}
+
+.add-post-img {
+    height: 240px;
+    border: 1px solid #cacaca;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.add-post-inputs label, .add-post-inputs-two label {
+    display: block;
+    font-family: Spoqa Han Sans Neo;
+    color: #010100;
+    letter-spacing: -1px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.add-post-inputs input, .add-post-inputs-two input {
+    height: 64px;
+    border-radius: 10px;
+    border: 1px solid #cacaca;
+    width: 100%;
+    padding-left: 20px;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #010100;
+    margin-top: 20px;
+}
+
+.add-post-inputs input::placeholder {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #cacaca;
+    /* color: #010100; */
+}
+
+.add-post-inputs-two input::placeholder {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #cacaca;
+}
+
+.memorial-post-btn {
+    font-family: Spoqa Han Sans Neo;
+    width: 660px;
+    height: 66px;
+    background: #ffb932 !important;
+    border-radius: 100px !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+    margin-top: 50px;
+    border: none !important;
+}
+
+.post-review .single-postview {
+    display: flex;
+    align-items: center;
+}
+
+.post-review .user-date-name {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.post-review .single-postview img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50% !important;
+}
+
+.post-review .memorial-postview-delete {
+    background-color: transparent !important;
+    border: none !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #cacaca !important;
+    font-family: Spoqa Han Sans Neo;
+    padding: 0 !important;
+    text-decoration: underline !important;
+}
+
+.post-review .memorial-postview-delete:focus {
+    outline: none !important;
+}
+
+.post-review .user-date h4 {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: -1px;
+    color: #010100;
+    margin-bottom: 0;
+}
+
+.post-review .user-date {
+    padding-left: 24px;
+}
+
+.post-review .user-date p {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: -1px;
+    color: #010100;
+    margin-bottom: 0;
+    opacity: 0.5;
+    margin-top: 4px;
+}
+
+.single-post-content {
+    padding-left: 66px;
+}
+
+.single-post-content p {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: -1px;
+    color: #010100;
+    margin-top: 20px;
+    margin-bottom: 0 !important;
+}
+
+/* .post-review:nth-child(1){
+    border-top:1px solid #c8c8c8 !important;
+  } */
+
+.post-review {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #c8c8c8;
+}
+
+.post-img-content {
+    margin-top: 20px;
+}
+
+.post-img-content img {
+    width: 535px;
+    height: 331px;
+}
+
+.main-post-view {
+    /* margin-bottom: 100px; */
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.no-preview-content {
+    margin-top: 30px;
+    text-align: center;
+    height: 338px;
+    padding-top: 100px;
+}
+
+.no-preview-content p {
+    margin-bottom: 0 !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Spoqa Han Sans Neo;
+    color: #b6b6b6;
+    margin-top: 30px;
+}
+
+.home-board {
+    padding-bottom: 416px;
+}
+
+/* .memorial-bg-img{
+    padding-bottom:416px !important;
+  } */
+
+.custom-padding-cards {
+    padding-bottom: 433px;
+}
+
+.logout-bg {
+    background-color: #fafafa !important;
+    height: 100vh !important;
+}
+
+.signup-del-account:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.donetion-history-title {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: -1px;
+    color: #010100;
+    margin-bottom: 0px;
+}
+
+.donetion-history-head {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.donetion-history-table tr {
+    width: 900px !important;
+    height: 70px !important;
+    /* border-top: 1px solid #dbdbdb; */
+    border-bottom: 1px solid #dbdbdb;
+    line-height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .donetion-history-table {
+  margin-bottom: 70px;
+} */
+
+.donetion-history-table tr:nth-child(1) {
+    border-top: 1px solid #dbdbdb;
+}
+
+.donetion-history-header-top-border {
+    border: 0.5px solid #010100;
+    opacity: 0.2;
+}
+
+/*======================================== video===============================================*/
+
+.video-content {
+    /* margin-top: 30px; */
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+
+.video-content-img-set {
+    position: relative;
+    width: 216px;
+    height: 150px;
+    margin-right: 10px;
+    margin-bottom: 12px;
+}
+
+.video-content-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video-content :nth-child(4n) {
+    margin-right: 0 !important;
+}
+
+.playr-img {
+    position: absolute;
+    top: 46px;
+    left: 79px;
+}
+
+.model-width {
+    max-width: 1300px !important;
+    background: transparent !important;
+}
+
+.model-width .modal-content {
+    padding: 0px !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+
+.model-width .modal-header .close {
+    outline: none !important;
+    border: none !important;
+}
+
+.model-width .modal-backdrop {
+    background-color: #000 !important;
+    opacity: 0.4 !important;
+}
+
+.bg-orange {
+    background: #ffb932 !important;
+}
+
+.memorial {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center;
+}
+
+.moneyGuid {
+    position: absolute;
+    width: 310px;
+    left: 57%;
+    top: 220px;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.07);
+    border-radius: 30px;
+    z-index: 1;
+}
+
+.home-container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.home-title-tex h2 {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 66px;
+    color: #ffffff;
+    z-index: 2;
+    margin-bottom: 0;
+}
+
+.home-slide-cad-content {
+    background: #ffffff;
+    border-radius: 30px;
+    padding: 40px 51px 60px 40px;
+}
+
+.slider-profil-img {
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+}
+
+.slid-content {
+    margin-top: -60px;
+}
+
+.slick-track:nth-child(3) {
+    margin-right: 0 !important;
+}
+
+.card-content {
+    margin-top: 30px;
+}
+
+.testimonial .slick-prev {
+    position: absolute;
+    top: 388px;
+    left: 785px;
+    z-index: 3;
+}
+
+.testimonial .slick-next {
+    position: absolute;
+    top: 388px;
+    right: 25px;
+    z-index: 3;
+}
+
+.slick-prev:before {
+    content: url(./img/prev-arrow-btn.svg) !important;
+}
+
+.slick-next:before {
+    content: url(./img/next-arrow-btn.svg) !important;
+}
+
+.slider-hart-img {
+    position: absolute;
+    right: 0px;
+}
+
+.apply-memorialhall-sec {
+    margin-top: 150px;
+}
+
+.apply-memorialhall-sec-card {
+    width: 521px;
+    height: 260px;
+    display: flex;
+    padding: 50px;
+    background: #ffffff;
+    margin-top: 30px;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.07);
+    border-radius: 30px;
+    align-items: center;
+}
+
+.apply-memorialhall-sec-text {
+    margin-left: 50px;
+}
+
+.apply-memorialhall-sec-content {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.apply-memorialhall-sec-img img {
+    width: 80px;
+    height: 80px;
+}
+
+.apply-memorialhall-sec-card2 {
+    width: 350px;
+    height: 260px;
+    margin-top: 30px;
+    display: flex;
+    padding: 50px;
+    background: #ffffff;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.07);
+    border-radius: 30px;
+}
+
+.Basic-Free-Service-card {
+    max-width: 430px;
+    width: 100%;
+    /* height: 1008px; */
+    background: #ffffff;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.07);
+    border-radius: 30px;
+    padding: 50px 50px 60px 50px;
+}
+
+.Basic-Free-Service-card-title img {
+    width: 91.97px;
+    height: 76.65px;
+}
+
+.Basic-Free-Service-card-title {
+    text-align: center;
+}
+
+.Basic-Free-Service-card-btn {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.Basic-Free-Service-basic-btn {
+    width: 94px;
+    height: 40px !important;
+    background: #6eb0ed !important;
+    border: none !important;
+    border-radius: 100px !important;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    color: #ffffff !important;
+    margin-bottom: 80px;
+}
+
+.Basic-Free-Service-premium-btn {
+    width: 112px;
+    height: 40px !important;
+    background: #ffb932 !important;
+    border-radius: 100px !important;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    border: none !important;
+    margin-bottom: 80px;
+    /* line-height: 36px; */
+}
+
+.secon-slid-card {
+    /* width: 430px; */
+    background: #ffffff;
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.07);
+    border-radius: 30px;
+    padding: 50px;
+}
+
+.second-slid-text h1 {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 36px;
+    letter-spacing: -1px;
+    color: #010100;
+}
+
+.second-slid-text h3 {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: -1px;
+    color: #010100;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.second-slid-text p {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: -1px;
+    color: #010100;
+    opacity: 0.5;
+    margin-bottom: 0px !important;
+}
+
+.banner2-btn, .banner1-btn {
+    max-width: 900px;
+    width: 100%;
+    height: 140px;
+    background: #6eb0ed !important;
+    border-radius: 10px !important;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
+    line-height: 36px !important;
+    letter-spacing: -0.5px !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+
+.banner1-btn {
+    margin-bottom: 20px;
+    opacity: 0.6 !important;
+    margin-top: 70px;
+}
+
+.testimonial-slick-card-caraousel .slick-prev {
+    position: absolute;
+    top: auto;
+    bottom: -30px;
+    right: 100px;
+    left: auto;
+    z-index: 3;
+}
+
+.testimonial-slick-card-caraousel .slick-next {
+    position: absolute;
+    top: auto;
+    right: 25px;
+    bottom: -30px;
+    z-index: 3;
+}
+
+.apply-hall-card2-tex {
+    margin-left: 40px;
+}
+
+.apply-hall-card2-tex h1 {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #010100;
+    margin-bottom: 20px !important;
+}
+
+.apply-hall-card2-tex h2 {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #010100;
+    opacity: 0.5;
+}
+
+.faq-hade h1 {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 66px;
+    /* line-height: 36px; */
+    letter-spacing: -1px;
+    color: #010100;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.faq-hade {
+    border-bottom: 1px solid #010100;
+}
+
+.accordion-item {
+    overflow: hidden;
+    transition: max-height 0.3s cubic-bezier(1, 0, 1, 0);
+    height: auto;
+    max-height: 9999px;
+}
+
+.accordion-item.collapsed {
+    max-height: 0;
+    transition: max-height 0.35s cubic-bezier(0, 1, 0, 1);
+}
+
+.accordion-title {
+    border-bottom: 1px solid #c4c4c4 !important;
+    padding: 25px;
+    background-color: #fafafa !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    margin-bottom: 0 !important;
+    align-items: center;
+    display: flex;
+}
+
+.accordion-title::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 9px solid #010100;
+    margin-left: auto !important;
+}
+
+.accordion-title:hover, .accordion-title.open {
+    color: black;
+}
+
+.accordion-title.open::after {
+    content: "";
+    border-top: 0;
+    border-bottom: 9px solid;
+}
+
+.accordion-content {
+    padding: 21px 40px 21px 60px;
+    font-family: Spoqa Han Sans Neo;
+    border-bottom: 1px solid #c4c4c4 !important;
+    font-style: normal !important;
+    /* font-weight: normal !important;
+    font-size: 18px !important; */
+    color: #010100;
+    background: #f5f5f5;
+}
+
+.head-faq-accordian-srno {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 36px;
+    margin-right: 30px;
+    letter-spacing: -1px;
+    color: #010100;
+}
+
+.head-faq-accordian-title {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: -1px;
+    color: #010100;
+}
+.faq-bg-gray .pagination{
+    margin-bottom:0 !important;
+}
+
+.pagination-notice .svg-inline--fa {
+    color: #c8c8c8 !important;
+    font-size: 16px !important;
+    font-weight: normal;
+}
+
+.pagination-notice .activepage {
+    color: #010100 !important;
+}
+
+.pagination-notice .page-item-custom {
+    height: 18px !important;
+    line-height: 18px !important;
+    width: 42px !important;
+    text-align: center;
+}
+
+.pagination-notice .page-item-custom a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: Spoqa Han Sans Neo;
+    color: #010100;
+    opacity: 0.4;
+}
+
+.pagination-notice .active a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: Spoqa Han Sans Neo;
+    color: #010100;
+    opacity: 1;
+}
+
+.pagination-notice {
+    margin-top: 50px;
+    margin-bottom: 112px;
+}
+
+.page-link-custom {
+    color: #a3a3a3 !important;
+}
+
+.pagination-notice .pagination {
+    justify-content: center;
+}
+
+.Funeralnews-main {
+    /* background-color: #fafafa; */
+    /* padding-top: 166px !important; */
+    padding-bottom: 170px !important;
+    width: 900px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Funeralnews-page {
+    margin: 0px;
+}
+
+.Funeralnews-title h1 {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 66px;
+    /* height: 76px; */
+    margin-bottom: 51px;
+    letter-spacing: -1px;
+}
+
+.Funeralnews-title {
+    margin: 0px;
+    border-bottom: 1px solid #010100;
+}
+
+.funeralnews-table {
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.Funeralnews-srno-td {
+    width: 40px;
+    margin-right: 25px;
+    color: #010100;
+    margin-right: 25px !important;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+}
+
+.td-title {
+    width: 860px;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.detail-title {
+    width: 900px;
+    height: 70px;
+    border-bottom: 1px solid #c8c8c8;
+    display: flex;
+    align-items: center;
+}
+
+.detail-title h2 {
+    width: 900px;
+    height: 20px;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    margin: auto;
+}
+
+.detail-text {
+    width: 900px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.detail-text p {
+    width: 860px;
+    height: 20px;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    margin: auto;
+}
+
+.funeralnewsdetail-img {
+    margin-left: auto;
+    width: 880px;
+}
+
+.FuneralNewsDetail-border {
+    border: 1px solid #c8c8c8;
+    width: 900px;
+    margin-top: 30px;
+}
+
+.video-section {
+    height: 650px !important;
+    overflow-y: auto !important;
+    margin-top: 30px;
+}
+
+.album-row .single-album {
+    width: 216px;
+    height: 150px;
+    margin-right: 10px;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.album-row .single-album img {
+    width: 100%;
+    height: 100%;
+}
+
+.album-view {
+    margin-top: 30px;
+    height: 650px;
+    overflow-y: auto;
+}
+
+.album-view .album-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.album-view .album-row :nth-child(4n) {
+    margin-right: 0 !important;
+}
+
+.video-content-img-set .video-thumbnail {
+    width: 100%;
+    height: 100%;
+}
+
+.trash-msg-btn, .edit-msg-btn {
+    border: none !important;
+    background-color: transparent !important;
+    padding: 0 !important;
+}
+
+.trash-msg-btn:focus, .edit-msg-btn:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.trash-msg-btn {
+    margin-left: 40px;
+}
+
+.memorial-msg-view .edit-trash-btn {
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+}
+
+.memorial-msg-view .ck-content {
+    display: inline-block;
+}
+
+.full-msg-content {
+    position: relative !important;
+    padding-top: 27px;
+    padding-bottom: 86px;
+    /* border-top:1px solid #C8C8C8; */
+    border-bottom: 1px solid #c8c8c8;
+    font-family: Spoqa Han Sans Neo;
+}
+
+.full-msg-content:first-child {
+    border-top: 1px solid #c8c8c8;
+}
+
+.delete-album {
+    width: 120px;
+    height: 50px;
+    border: 1px solid #ff6565 !important;
+    box-sizing: border-box;
+    background-color: #ffffff !important;
+    border-radius: 100px !important;
+    color: #ff6565 !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Spoqa Han Sans Neo;
+}
+
+.save-album {
+    border: 1px solid #6eb0ed !important;
+    color: #6eb0ed !important;
+    margin-left: 12px;
+}
+
+.edit-album {
+    background-color: #6eb0ed !important;
+    color: #fff !important;
+    border: 1px solid #6eb0ed !important;
+}
+
+.album-btn-row {
+    padding-top: 30px !important;
+    display: flex !important;
+}
+
+.react-datepicker__current-month {
+    position: relative;
+}
+
+.react-datepicker__current-month:after {
+    position: absolute;
+    display: block;
+    content: "년";
+    color: #000;
+    left: 59%;
+    top: 0;
+}
+
+.memorial-dialog-popup {
+    width: 450px;
+    box-shadow: 10px 10px 50px rgb(0 0 0 / 7%);
+    position: absolute;
+    z-index: 9;
+    top: 80%;
+    left: 25%;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.memorial-dialog-popup .title {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 40px 30px;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.memorial-dialog-popup .title h1 {
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: -1px;
+    color: #010100;
+}
+
+.memorial-dialog-popup .body {
+    padding: 30px 40px;
+}
+
+.memorial-dialog-popup .body h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: -1px;
+    font-family: Spoqa Han Sans Neo;
+    color: #010100;
+    margin-bottom: 0;
+}
+
+.memorial-dialog-popup .body h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: -1px;
+    font-family: Spoqa Han Sans Neo;
+    color: #010100;
+    margin-bottom: 0;
+    margin-top: 12px;
+}
+
+.memorial-dialog-popup .popup-footer {
+    padding: 40px 40px 60px 40px;
+}
+
+.memorial-dialog-popup .copy-address-btn {
+    background: #ffb932 !important;
+    border: 2px solid #ffb932 !important;
+    /* box-sizing: border-box; */
+    border-radius: 10px !important;
+    width: 370px;
+    height: 60px;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+}
+
+.album-saveBtn {
+    width: 80px;
+    height: 34px;
+    border: 1px solid #6eb0ed !important;
+    border-radius: 100px !important;
+    background-color: #fff !important;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    color: #6eb0ed !important;
+}
+
+.image-select {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.image-select .checkbox-input {
+    background: rgba(255, 255, 255, 0.2);
+    width: 30px !important;
+    height: 30px !important;
+    padding: 6px !important;
+}
+
+.image-select .checkbox-input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.faq-container .accordion-title {
+    height: 70px !important;
+}
+
+.faq-container .accordion-content {
+    font-size: 16px !important;
+    font-weight: bold !important;
+}
+
+.faq-bg-gray {
+    background-color: #fafafa;
+    padding-bottom: 100px !important;
+}
+
+.pagination-notice .activepage {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: Spoqa Han Sans Neo;
+}
+
+.fr-second-toolbar #fr-logo {
+    display: none !important;
+}
+
+.fr-second-toolbar .fr-counter {
+    display: none !important;
+}
+
+.fr-toolbar {
+    border: none !important;
+}
+
+.fr-toolbar .fr-btn-grp {
+    margin: 0 !important;
+}
+
+.fr-svg {
+    margin: 0 !important;
+}
+
+.editor-post-main .fr-btn-grp .fr-btn:first-child {
+    margin: 0 !important;
+    background: url(./img/add-image.svg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 21.94px;
+    border-radius: 0 !important;
+}
+
+.editor-post-main .fr-btn-grp .fr-btn .fr-svg {
+    display: none;
+}
+
+.editor-post-main .fr-btn-grp .fr-btn:nth-child(2) {
+    margin: 0 !important;
+    background: url(./img/add-video.svg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30px;
+    margin-left: 40px !important;
+    height: 20px;
+    border-radius: 0 !important;
+}
+
+/* #insertImage-1{
+    margin: 0 !important;
+    background-image: url(./img/add-image.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 21.94px;
+    border-radius: 0 !important;
+}
+
+#insertVideo-1 {
+    margin: 0 !important;
+    background-image: url(./img/add-video.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30px;
+    margin-left: 40px !important;
+    height: 20px;
+    border-radius: 0 !important;
+} */
+
+#insertImage-1 .fr-svg {
+    display: none !important;
+}
+
+#insertVideo-1 .fr-svg {
+    display: none !important;
+}
+
+.fr-toolbar .fr-btn-grp {
+    display: flex !important;
+    width: 100% !important;
+    align-items: center;
+    justify-content: right !important;
+    position: absolute;
+    top: -40px;
+}
+
+.fr-box.fr-basic {
+    background-color: transparent !important;
+}
+
+.fr-box.fr-basic .fr-element {
+    padding: 0 !important;
+}
+
+.fr-box.fr-basic .fr-element {
+    height: 240px !important;
+    background-color: transparent !important;
+    border: 1px solid #cacaca !important;
+    border-radius: 10px !important;
+    padding: 20px !important;
+}
+
+.fr-box.fr-basic .fr-wrapper {
+    border: none !important;
+}
+
+.fr-toolbar .fr-newline {
+    display: none !important;
+}
+
+.fr-second-toolbar {
+    border: none !important;
+}
+
+.fr-quick-insert {
+    display: none !important;
+}
+
+.fr-placeholder {
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+    font-family: Spoqa Han Sans Neo;
+    color: #cacaca !important;
+}
+
+.fr-box.fr-basic .fr-element {
+    font-family: Spoqa Han Sans Neo !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+    color: #010100 !important;
+}
+
+.fr-popup .fr-buttons {
+    display: none !important;
+}
+
+.fr-video-by-url-layer {
+    display: none !;
+}
+
+.fr-video-by-url-layer, .fr-video-embed-layer {
+    display: none !important;
+}
+
+.fr-video-upload-layer {
+    display: block !important;
+}
+
+.x-buttons {
+    background: transparent !important;
+    border: none !important;
+}
+
+.x-buttons:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.send-donation-popups {
+    max-width: 760px;
+    background: #ffffff;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.07);
+    border-radius: 30px;
+    margin-top: 74px;
+    padding: 60px 50px 50px 50px;
+}
+
+.send-donationtitle {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #010100;
+}
+
+.send-donationtitle p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: -1px;
+    font-family: Spoqa Han Sans Neo !important;
+    color: #010100;
+    line-height: 36px;
+    margin-bottom: 0;
+}
+
+.donation-reciept {
+    padding-top: 30px;
+}
+
+.donation-reciept .reciept-number {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: -1px;
+    font-family: Spoqa Han Sans Neo !important;
+    color: #010100;
+    margin-bottom: 0;
+}
+
+.donation-reciept .reciept-name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: Spoqa Han Sans Neo !important;
+    margin-top: 16px;
+    color: #010100;
+    margin-bottom: 0 !important;
+}
+
+.donation-amountradio .radio-btn {
+    margin-right:20px;
+}
+
+.donation-amountradio .radio-btn:nth-child(4){
+    margin-right: 0 !important;
+}
+
+.radio-btn-detail .radio-check {
+    min-width: 150px !important;
+    width:100% !important;
+    height: 64px !important;
+    line-height: 64px !important;
+    text-align: center;
+    font-weight: normal !important;
+    font-family: Spoqa Han Sans Neo !important;
+    font-size: 16px !important;
+    color: #010100;
+    border: 1px solid #cacaca;
+    border-radius: 10px;
+}
+
+
+.radio-btn-detail input:checked~.radio-check {
+    font-weight: bold !important;
+}
+
+.radio-btn-detail input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.radio-btn-detail {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    margin-bottom: 0;
+}
+
+.radio-btn-detail input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.radio-btn-detail input:checked~.radio-check {
+    background: linear-gradient( 0deg, rgba(255, 185, 50, 0.2), rgba(255, 185, 50, 0.2)), #ffb932;
+    color: #ffffff;
+    border: 1px solid #ffb932;
+    border-radius: 10px;
+}
+
+.donation-amountradio {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 20px;
+}
+
+.won-input {
+    position: relative;
+}
+
+.won-input input {
+    text-align: right !important;
+    padding-right: 50px !important;
+}
+
+.won-symbol {
+    position: absolute;
+    top: 22px;
+    right: 22px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #010100;
+    font-family: Spoqa Han Sans Neo !important;
+}
+
+.total-doonation {
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #c8c8c8 !important;
+    margin-top: 20px;
+}
+
+.total-doonation .amount-of-donation {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Spoqa Han Sans Neo !important;
+    color: #ffb932;
+    margin-bottom: 0 !important;
+}
+
+.total-doonation .total-wonsymbol {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    padding-left: 10px;
+    font-family: Spoqa Han Sans Neo !important;
+    color: #010100;
+    margin-bottom: 0;
+}
+
+.login-results {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: Spoqa Han Sans Neo !important;
+    color: #010100;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.cancle-daonationBtn {
+    border: 1px solid #ffb932 !important;
+    border-radius: 100px !important;
+    min-width: 320px;
+    width:100%;
+    font-family: Spoqa Han Sans Neo;
+    height: 66px;
+    background: #fff !important;
+    letter-spacing: -0.5px;
+    font-family: Spoqa Han Sans Neo !important;
+    color: #ffb932 !important;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    margin-right:20px !important;
+}
+
+.confirm-daonationBtn {
+    background: #ffb932 !important;
+    border-radius: 100px !important;
+    min-width: 320px;
+    width:100%;
+    height: 66px;
+    border: 1px solid #ffb932 !important;
+    letter-spacing: -0.5px;
+    font-family: Spoqa Han Sans Neo;
+    color: #fff !important;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 18px !important;
+}
+
+.donationBtn-group {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 50px;
+}
+
+.send-donation-reciept {
+    padding-bottom: 80px !important;
+}
+
+.deletepost-password {
+    padding-top: 50px !important;
+    position: relative;
+}
+
+.deletepost-password label {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: -1px;
+    font-family: Spoqa Han Sans Neo;
+    color: #010100;
+}
+
+.deletepost-password input {
+    border: 1px solid #cacaca;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 64px;
+}
+
+.deletepost-password input:placeholder-shown {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif !important;
+}
+
+.deletepost-password input::placeholder {
+    color: #cacaca;
+    font-family: "Roboto", sans-serif !important;
+}
+
+.delete-post-invailid {
+    color: #ff7474;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    font-family: Spoqa Han Sans Neo;
+    position: absolute;
+    bottom: -50px;
+}
+
+.register-seltAuth {
+    position: relative;
+}
+
+.furnel-table {
+    border-top: 1px solid #010100;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.funeralnews-table .sr-number {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: -1px;
+    font-family: Spoqa Han Sans Neo;
+    color: #010100;
+    width: 40px;
+    text-align: center;
+}
+
+.funeralnews-table .content-table {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: -1px;
+    font-family: Spoqa Han Sans Neo;
+    color: #010100;
+    padding-left: 20px !important;
+    text-align: center;
+    text-align: left;
+}
+
+.furnel-detailspage {
+    border-top: 1px solid #010100;
+    margin-top: 50px;
+}
+
+.single-Furnel {
+    height: 70px;
+    line-height: 70px;
+    padding-left: 20px;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.single-Furnel p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Spoqa Han Sans Neo;
+    letter-spacing: -1px;
+    color: #010100;
+    margin-bottom: 0;
+}
+
+.single-funrel-details {
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.single-funrel-details p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: Spoqa Han Sans Neo;
+    letter-spacing: -1px;
+    color: #010100;
+    margin-bottom: 0;
+}
+
+.single-funrel-details img {
+    margin-top: 20px !important;
+    width: 100%;
+}
+
+.apply-consulation {
+    background: #ffb932 !important;
+    border-radius: 100px !important;
+    width: 160px;
+    height: 60px;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+    border: none !important;
+    font-family: Spoqa Han Sans Neo;
+    margin-left: 60px;
+}
+
+.priceguide-contact {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.priceguid-price {
+    min-width: 170px;
+    text-align: center;
+}
+
+.priceguid-price h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: -1px;
+    font-family: Spoqa Han Sans Neo;
+    color: #ffb932;
+}
+
+.priceguid-price p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: -1px;
+    font-family: Spoqa Han Sans Neo;
+    color: #010100;
+    opacity: 0.5;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+.priceguid-price p:first-child {
+    margin-top: 12px !important;
+}
+
+/* 
+.data-single-price{
+    max-width: 596px;
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+
+} */
+
+.close-btn-suggestion:focus, .color-yellow-btn:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.priceguide-box {
+    background: #ffffff;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.07);
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.priceguide-box:first-child {
+    margin-top: -40px;
+}
+
+
+.priceguide-left-content {
+    min-width: 700px;
+    width:100%;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    padding-right:200px;
+}
+
+.price-guide-and-image{
+    display:flex;
+    align-items:center;
+    max-width:200px;
+    width:100%;
+    justify-content: center;
+}
+
+.single-priceguide-inner {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    position: relative;
+    width: 100%;
+
+}
+
+.price-priceguide {
+    min-width: 200px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+}
+
+
+.content-priceguide h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: -1px;
+    font-family: Spoqa Han Sans Neo;
+    color: #010100;
+    margin-bottom: 0;
+}
+
+.content-priceguide h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: -1px;
+    font-family: Spoqa Han Sans Neo;
+    color: #010100;
+    margin-bottom: 0;
+    margin-top: 12px;
+}
+
+.content-priceguide p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: -1px;
+    font-family: Spoqa Han Sans Neo;
+    color: #010100;
+    margin-bottom: 0;
+    opacity: 0.5;
+    margin-top: 20px;
+    line-height: 32px;
+}
+
+.price-priceguide h3 {
+    letter-spacing: -1px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffb932;
+    /* min-width:100px; */
+    text-align: center;
+    font-family: Spoqa Han Sans Neo;
+    margin-bottom: 0;
+}
+
+.price-priceguide p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: Spoqa Han Sans Neo;
+    color: #010100;
+    margin-bottom: 0;
+    margin-top: 8px;
+    opacity: 0.5;
+}
+
+.price-priceguide p:first-child {
+    margin-top: 12px !important;
+}
+
+.premium-table th {
+    height: 50px;
+    background: #f9f9f9;
+}
+
+.priceguide-page {
+    padding-bottom: 170px !important;
+}
+
+.premium-table-main {
+    padding: 0px 50px 60px 50px;
+}
+
+.premium-table th {
+    min-width: 300px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: -1px;
+    font-family: Spoqa Han Sans Neo;
+    color: #010100;
+}
+
+.premium-table th:last-child {
+    min-width: 200px !important;
+}
+
+.premium-table thead {
+    border-top: 1px solid #010100;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.premium-table td {
+    height: 50px !important;
+    line-height: 50px !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: -1px;
+    font-family: Spoqa Han Sans Neo;
+    color: #010100;
+    padding:0 !important; 
+}
+
+.premium-table tbody tr:last-child {
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.price-card {
+    background: #ffffff;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.07);
+    border-radius: 30px;
+    padding-top: 63px;
+    padding-bottom: 57px;
+    margin-top: 57px;
+}
+
+.xs-small-conatainer {
+    max-width: 760px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.price-timetable {
+    /* padding-left: 262px;
+    padding-right: 262px; */
+    margin-top: 30px;
+    display: grid;
+    justify-content: center;
+}
+
+.price-timetable p {
+    margin-bottom: 0;
+}
+
+.price-contact-info {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: -1px;
+    font-family: Spoqa Han Sans Neo;
+    color: #010100;
+    margin-bottom: 0;
+}
+
+.price-contact-number {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: -1px;
+    font-family: Spoqa Han Sans Neo;
+    color: #ffb932;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.price-timetable .time-table-days {
+    width: 70px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: -1px;
+    margin-right: 7px;
+    color: #010100;
+}
+
+.price-timetable .timetable-hour {
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: -1px;
+    font-family: Spoqa Han Sans Neo;
+    color: #010100;
+}
+
+.price-timetable .price-timetable-row {
+    margin-top: 14px;
+}
+
+.price-card .contact-terms {
+    color: #aeaeae;
+    letter-spacing: -1px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: Spoqa Han Sans Neo;
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+
+.privact-policy-section {
+    margin-top: 63px;
+}
+
+.privact-policy-section .title-privacy-policy h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: -1px;
+    font-family: Spoqa Han Sans Neo;
+    color: #010100;
+    margin-bottom: 0;
+}
+
+.privact-policy-section .title-privacy-policy h5 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: -1px;
+    font-family: Spoqa Han Sans Neo;
+    color: #010100;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.terms-table {
+    margin-top: 72px;
+}
+
+.termstable-row {
+    display: flex;
+    background-color: #f5f5f5;
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid #010100;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.termstable-row :nth-child(3n) {
+    margin-right: 0px !important;
+}
+
+.single-terms-row {
+    width: 200px;
+    margin-right: 80px;
+}
+
+.single-terms-row p {
+    margin-bottom: 0 !important;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: -1px;
+    color: #010100;
+    font-family: Spoqa Han Sans Neo;
+}
+
+.terms-table-content {
+    display: flex;
+    align-items: center;
+    padding: 38px 0;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.terms-table-content :nth-child(3n) {
+    margin-right: 0px !important;
+}
+
+.terms-table-content h6 {
+    margin-bottom: 0;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: -1px;
+    font-family: Spoqa Han Sans Neo;
+    color: #010100;
+    margin-top: 12px;
+}
+
+.terms-table-content h6:first-child {
+    margin-top: 0 !important;
+}
+
+.agree-login-label-checkbox-checked {
+    display: flex;
+    align-items: center;
+    font-family: Spoqa Han Sans Neo;
+    user-select: none;
+    color: #ffb932 !important;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: auto;
+    padding-right: 20px;
+    margin-bottom: 0;
+}
+
+.agree-login-label-checkbox {
+    display: flex;
+    align-items: center;
+    font-family: Spoqa Han Sans Neo;
+    user-select: none;
+    color: #eaeaea;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: auto;
+    padding-right: 20px;
+    margin-bottom: 0;
+}
+
+.agree-checkbox-input {
+    content: url(./img/Vector.svg);
+    padding: 3px !important;
+    margin-right: 10px;
+    width: 22px !important;
+    height: 22px !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    position: relative;
+    border-radius: 100% !important;
+    transition: all 0.15s ease-out 0s;
+    background: #eaeaea;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.agree-checkbox-input:checked {
+    background: #ffb932 !important;
+}
+
+.terms-confirmation {
+    display: flex;
+    padding-top: 31px;
+    padding-bottom: 51px;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.terms-confirmation p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: -1px;
+    font-family: Spoqa Han Sans Neo;
+    color: #010100;
+    margin-bottom: 0;
+}
+
+.inquiry-box {
+    padding: 60px 50px 64px 50px !important;
+    background: #ffffff;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.07);
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+.address-label{
+    margin-top:49px !important;
+}
+
+/* .inquri-full-form .login-label{
+    position: relative;
+} */
+
+.important-notes {
+    width: 8px;
+    height: 8px;
+    background-color: #ff6565;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-left: 6px;
+}
+
+.mo-number .form-input {
+    width: 100%;
+    display: block;
+}
+
+.inquri-full-form textarea {
+    border: 1px solid #cacaca;
+    border-radius: 10px;
+    padding: 20px !important;
+    margin-top: 20px;
+}
+
+.inquiry-form-submit {
+    background: #ffb932 !important;
+    border-radius: 100px !important;
+    height: 66px !important;
+    border: none !important;
+    width: 100%;
+    margin-top: 50px !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Spoqa Han Sans Neo;
+    letter-spacing: -0.5px;
+}
+
+.button-heart {
+    background-color: transparent !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.button-heart:focus {
+    border: none !important;
+}
+
+.button-heart {
+    width: 38px;
+    padding: 0 !important;
+    height: 38px;
+    position: absolute;
+    top: 44px;
+    right: 40px;
+}
+
+.button-heart img {
+    width: 100%;
+    margin-bottom: 0 !important;
+    height: 100% !important;
+}
+
+.add-friend-button {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    border: 1px solid #ffb932 !important;
+    background-color: #fff !important;
+    border-radius: 100px !important;
+    width: 80px;
+    height: 34px;
+    color: #ffb932 !important;
+    position: absolute;
+    top: 40;
+    right: 36px;
+}
+
+.add-friend-button:focus {
+    border: 1px solid #ffb932 !important;
+}
+
+.waiting-friend-button {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    border: 1px solid #cacaca !important;
+    background-color: #fff !important;
+    border-radius: 100px !important;
+    width: 80px;
+    height: 34px;
+    color: #cacaca !important;
+    position: absolute;
+    top: 40;
+    right: 36px;
+}
+
+.waiting-friend-button:focus {
+    border: 1px solid #cacaca !important;
+}
+
+.input-filetypes {
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    background-color: #ffb932;
+    border-radius: 10px;
+    color: #fff;
+    letter-spacing: -0.5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif !important;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.video-modal .modal-content {
+    border: none !important;
+}
+
+.find-password-btn {
+    margin-left: 48px;
+}
+
+.find-email-popup .modal-content {
+    background: #ffffff;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.07);
+    border-radius: 30px;
+    max-width: 760px;
+    padding: 60px 50px;
+    border: none !important;
+}
+
+.find-email-popup .find-email-btn-two {
+    width: 660px !important;
+    height: 64px;
+    display: block;
+    border-radius: 10px !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    font-family: Spoqa Han Sans Neo;
+    color: #FFFFFF;
+    background-color: #ffb932 !important;
+    border: none !important;
+    margin-top: 50px !important;
+}
+
+.nav-profile-section {
+    align-items: center;
+}
+
+.mob-menu {
+    position: absolute;
+    z-index: 9;
+    display: flex;
+    width: 100%;
+    padding: 40px 20.5px 0 25.5px;
+}
+
+.mob-menu button {
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+.bg-layer-mob {
+    position: fixed;
+    top: 0;
+    background: #000000;
+    opacity: 0.6;
+    width: 100%;
+    height: 100px;
+    z-index: 9;
+    height: 100vh;
+}
+
+.upload-file-btn-disable {
+    opacity: .65;
+    cursor: default !important
+}
+
+.memorialhall-form .login-label-checkbox {
+    margin-top: 0 !important;
+    margin-left: auto !important;
+}
+
+.memorialhall-form .login-label-checkbox-checked {
+    margin-top: 0 !important;
+    margin-left: auto !important;
+}
+
+.memorial-money-account-guide-service {
+    width: 100% !important;
+}
+
+.header-search-black {
+    position: relative;
+}
+
+.loader-mob-page {
+    background: #FFB932;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    text-align: center;
+    width: 100%;
+    line-height: 100vh;
+    z-index: -1;
+    opacity:0;
+    animation-duration:3s;
+    animation-name:mymove ;
+}
+
+@keyframes mymove {
+    0% {
+        opacity: 1;
+        z-index: 1001;
+    }
+    100% {
+        opacity: 1;
+        z-index: 1001;
+    }
+}
+
+.furnel-return-button{
+    border-radius: 50px !important;
+    height: 33px ;
+    background:#FFB932 !important;
+    color:#fff;
+    letter-spacing: -0.25px;
+    font-size: 10px !important;
+    font-weight:normal;
+    font-family: Spoqa Han Sans Neo;
+    width:100%;
+    border:1px solid transparent !important;
+    margin-top:25px;
+    margin-bottom:25px;
+}
+
+.searchbar-row{
+    position: relative;
+}
+
+.text-yellow {
+    color: #FFB932
+}
+
+.ck-content p img{
+    width:100%;
+}
+
+.add-title input {
+    height: 48px;
+    border: 0 !important;
+    outline: 0 !important;
+    border-radius: 0;
+}
+
+.memorialmsg-editor{
+    margin-top: 0 !important;
+}

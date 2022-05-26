@@ -1,0 +1,56 @@
+.copied-tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .copied-tooltip .copied-tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #FFB932;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    margin-left: -69px;
+    bottom: 60px
+  }
+
+  .copied-tooltip .copied-tooltiptext-visible {
+    visibility: visible;
+  }
+
+  .copied-tooltip .copied-tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #FFB932 transparent transparent 
+                transparent;
+}
+
+.word-counter{
+  display: flex;
+  height:40px;
+  line-height:40px;
+  border: 1px solid var(--ck-color-toolbar-border);
+  border-top:none;
+}
+
+.memorial-msg-view .ck-editor__main{
+  height:541px;
+  
+}
+
+.ck.ck-editor__editable:not(.ck-editor__nested-editable).ck-focused{
+  border: 1px solid var(--ck-color-toolbar-border) !important;
+  box-shadow:none !important;
+}
